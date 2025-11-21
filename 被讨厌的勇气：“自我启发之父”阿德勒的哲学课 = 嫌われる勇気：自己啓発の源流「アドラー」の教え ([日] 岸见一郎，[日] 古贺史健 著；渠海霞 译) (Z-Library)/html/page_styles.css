@@ -1,0 +1,12 @@
+@page {
+    margin-bottom: 5pt;
+    margin-top: 5pt
+    }
+@font-face {
+    font-family: "fangsong";
+    src: url(fonts/00014.ttf)
+    }
+@font-face {
+    font-family: "kai";
+    src: url(fonts/00013.ttf)
+    }

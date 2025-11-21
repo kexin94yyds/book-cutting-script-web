@@ -1,0 +1,342 @@
+.banquan {
+    display: block;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-indent: 2em;
+    border-top: currentColor none 0;
+    border-bottom: currentColor none 0;
+    margin: 0.5em 10px
+    }
+.bqbt {
+    display: block;
+    font-size: 1.29167em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 3em 0 0
+    }
+.calibre {
+    display: block;
+    font-size: 1em;
+    line-height: 1.5;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre1 {
+    display: block
+    }
+.calibre2 {
+    display: block;
+    line-height: 1.5
+    }
+.calibre3 {
+    font-weight: bold
+    }
+.calibre4 {
+    background-image: url(images/00004.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    font-size: 1em;
+    line-height: 1.5;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre5 {
+    height: auto;
+    line-height: 1.5;
+    opacity: 0.2;
+    width: 220px
+    }
+.calibre6 {
+    background-image: url(images/00005.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    font-size: 1em;
+    line-height: 1.5;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre7 {
+    background-image: url(images/00006.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    font-size: 1em;
+    line-height: 1.5;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre8 {
+    background-image: url(images/00010.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    font-size: 1em;
+    line-height: 1.5;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre9 {
+    background-image: url(images/00003.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    font-size: 1em;
+    line-height: 1.5;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre10 {
+    background-image: url(images/00007.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    font-size: 1em;
+    line-height: 1.5;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre11 {
+    background-image: url(images/00012.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    font-size: 1em;
+    line-height: 1.5;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre12 {
+    display: block;
+    font-size: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre13 {
+    display: block;
+    font-size: 1.29167em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0.83em 0
+    }
+.calibre14 {
+    display: block;
+    list-style-type: disc;
+    margin-bottom: 1em;
+    margin-right: 0;
+    margin-top: 1em
+    }
+.calibre15 {
+    display: list-item;
+    list-style-type: none
+    }
+.calibre16 {
+    text-decoration: none
+    }
+.calibre17 {
+    display: block;
+    list-style-type: circle;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0
+    }
+.dian {
+    height: 14px;
+    line-height: 1.5;
+    width: auto;
+    padding: 0 5px
+    }
+.dibian {
+    display: block;
+    line-height: 1.5;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: right;
+    border-top: currentColor none 0;
+    border-bottom: currentColor none 0
+    }
+.lk {
+    display: block;
+    font-family: kai;
+    font-weight: bold;
+    line-height: 1.84;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: right;
+    text-indent: 0;
+    word-break: break-all;
+    border-top: currentColor none 0;
+    border-bottom: currentColor none 0;
+    margin: 0.5em 0
+    }
+.normaltext {
+    display: block;
+    line-height: 1.84;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-indent: 2em;
+    word-break: break-all;
+    border-top: currentColor none 0;
+    border-bottom: currentColor none 0;
+    margin: 0.5em 0
+    }
+.normaltext1 {
+    color: #254c8b;
+    display: block;
+    line-height: 1.84;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-indent: 2em;
+    word-break: break-all;
+    border-top: currentColor none 0;
+    border-bottom: currentColor none 0;
+    margin: 0.5em 0
+    }
+.normaltext2 {
+    display: block;
+    font-family: kai;
+    line-height: 1.84;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: right;
+    text-indent: 0;
+    word-break: break-all;
+    border-top: currentColor none 0;
+    border-bottom: currentColor none 0;
+    margin: 0.5em 0
+    }
+.normaltext3 {
+    display: block;
+    font-weight: bold;
+    line-height: 1.84;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-indent: 2em;
+    word-break: break-all;
+    border-top: currentColor none 0;
+    border-bottom: currentColor none 0;
+    margin: 0.5em 0
+    }
+.normaltextb {
+    display: block;
+    font-family: fangsong;
+    font-size: 1em;
+    line-height: 1.5;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-indent: 2em;
+    word-break: break-all;
+    border-top: currentColor none 0;
+    border-bottom: currentColor none 0;
+    margin: 0.5em 0
+    }
+.part {
+    background-image: url(images/00008.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    font-size: 1em;
+    line-height: 1.5;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.shangkuang {
+    display: block;
+    line-height: 1.5;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-indent: 2em;
+    width: 200px;
+    border-top: #254c8b double 3px;
+    border-bottom: currentColor none 0;
+    margin: 0.5em 0
+    }
+.title {
+    display: block;
+    font-size: 1.29167em;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    text-indent: 0;
+    margin: 100px 0 1em
+    }
+.title1 {
+    background: rgba(55, 103, 180, 0.2);
+    color: #fff;
+    display: block;
+    font-size: 1.29167em;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    text-indent: 0;
+    width: 280px;
+    margin: 200px auto 0
+    }
+.title2 {
+    color: #3767b4;
+    display: block;
+    font-size: 1.29167em;
+    font-weight: bold;
+    line-height: 1.5;
+    text-indent: 0;
+    margin: 100px 0 1em
+    }
+.title3 {
+    color: #3767b4;
+    display: block;
+    font-size: 1.29167em;
+    font-weight: bold;
+    line-height: 1.5;
+    text-indent: 0;
+    margin: 2em 0 1em
+    }
+.yingwen {
+    color: #b2b2b2;
+    display: block;
+    font-size: 0.75em;
+    font-weight: bold;
+    letter-spacing: 6px;
+    line-height: 1.5;
+    padding-bottom: 0;
+    padding-left: 3px;
+    padding-top: 0;
+    text-align: center;
+    border-top: currentColor none 0;
+    border-bottom: currentColor none 0;
+    margin: 0.5em 0
+    }
+.zhangjie {
+    font-size: 0.77419em;
+    letter-spacing: 10px;
+    line-height: 1.5;
+    padding-left: 10px
+    }
+.pcalibre:hover {
+    color: red
+    }

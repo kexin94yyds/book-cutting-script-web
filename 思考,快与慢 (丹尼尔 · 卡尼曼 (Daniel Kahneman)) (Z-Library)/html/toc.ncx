@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+   <head>
+      <meta name="dtb:uid" content="bookid"/>
+      <meta name="dtb:depth" content="0"/>
+      <meta name="dtb:totalPageCount" content="0"/>
+      <meta name="dtb:maxPageNumber" content="0"/>
+   </head>
+   <docTitle>
+      <text>UnKnown</text>
+   </docTitle>
+   <navMap>
+     <navPoint id="id1" playOrder="1">
+       <navLabel>
+         <text>序言</text>
+       </navLabel>
+       <content src="text00000.html#filepos0000010929"/>
+     </navPoint>
+     <navPoint id="id2" playOrder="2">
+       <navLabel>
+         <text>第一部分 系统1，系统2</text>
+       </navLabel>
+       <content src="text00000.html#filepos0000044096"/>
+     </navPoint>
+     <navPoint id="id3" playOrder="3">
+       <navLabel>
+         <text>第1章 一张愤怒的脸和一道乘法题</text>
+       </navLabel>
+       <content src="text00000.html#filepos0000044317"/>
+     </navPoint>
+     <navPoint id="id4" playOrder="4">
+       <navLabel>
+         <text>第2章 电影的主角与配角</text>
+       </navLabel>
+       <content src="text00000.html#filepos0000073140"/>
+     </navPoint>
+     <navPoint id="id5" playOrder="5">
+       <navLabel>
+         <text>第3章 惰性思维与延迟满足的矛盾</text>
+       </navLabel>
+       <content src="text00000.html#filepos0000093172"/>
+     </navPoint>
+     <navPoint id="id6" playOrder="6">
+       <navLabel>
+         <text>第4章 联想的神奇力量</text>
+       </navLabel>
+       <content src="text00000.html#filepos0000121518"/>
+     </navPoint>
+     <navPoint id="id7" playOrder="7">
+       <navLabel>
+         <text>第5章 你的直觉有可能只是错觉</text>
+       </navLabel>
+       <content src="text00000.html#filepos0000145792"/>
+     </navPoint>
+     <navPoint id="id8" playOrder="8">
+       <navLabel>
+         <text>第6章 意料之外与情理之中</text>
+       </navLabel>
+       <content src="text00000.html#filepos0000176166"/>
+     </navPoint>
+     <navPoint id="id9" playOrder="9">
+       <navLabel>
+         <text>第7章 字母“B”与数字“13”</text>
+       </navLabel>
+       <content src="text00000.html#filepos0000195659"/>
+     </navPoint>
+     <navPoint id="id10" playOrder="10">
+       <navLabel>
+         <text>第8章 我们究竟是如何作出判断的？</text>
+       </navLabel>
+       <content src="text00000.html#filepos0000221305"/>
+     </navPoint>
+     <navPoint id="id11" playOrder="11">
+       <navLabel>
+         <text>第9章 目标问题与启发性问题形影不离</text>
+       </navLabel>
+       <content src="text00000.html#filepos0000240464"/>
+     </navPoint>
+     <navPoint id="id12" playOrder="12">
+       <navLabel>
+         <text>第二部分 启发法与偏见</text>
+       </navLabel>
+       <content src="text00001.html#filepos0000260650"/>
+     </navPoint>
+     <navPoint id="id13" playOrder="13">
+       <navLabel>
+         <text>第10章 大数法则与小数定律</text>
+       </navLabel>
+       <content src="text00001.html#filepos0000260872"/>
+     </navPoint>
+     <navPoint id="id14" playOrder="14">
+       <navLabel>
+         <text>第11章 锚定效应在生活中随处可见</text>
+       </navLabel>
+       <content src="text00001.html#filepos0000287673"/>
+     </navPoint>
+     <navPoint id="id15" playOrder="15">
+       <navLabel>
+         <text>第12章 科学地利用可得性启发法</text>
+       </navLabel>
+       <content src="text00001.html#filepos0000313257"/>
+     </navPoint>
+     <navPoint id="id16" playOrder="16">
+       <navLabel>
+         <text>第13章 焦虑情绪与风险政策的设计</text>
+       </navLabel>
+       <content src="text00001.html#filepos0000331810"/>
+     </navPoint>
+     <navPoint id="id17" playOrder="17">
+       <navLabel>
+         <text>第14章 猜一下，汤姆的专业是什么？</text>
+       </navLabel>
+       <content src="text00001.html#filepos0000353890"/>
+     </navPoint>
+     <navPoint id="id18" playOrder="18">
+       <navLabel>
+         <text>第15章 琳达问题的社会效应</text>
+       </navLabel>
+       <content src="text00001.html#filepos0000377232"/>
+     </navPoint>
+     <navPoint id="id19" playOrder="19">
+       <navLabel>
+         <text>第16章 因果关系比统计学信息更具说服力</text>
+       </navLabel>
+       <content src="text00001.html#filepos0000403651"/>
+     </navPoint>
+     <navPoint id="id20" playOrder="20">
+       <navLabel>
+         <text>第17章 所有表现都会回归平均值</text>
+       </navLabel>
+       <content src="text00001.html#filepos0000426075"/>
+     </navPoint>
+     <navPoint id="id21" playOrder="21">
+       <navLabel>
+         <text>第18章 如何让直觉性预测更恰当有效？</text>
+       </navLabel>
+       <content src="text00001.html#filepos0000450047"/>
+     </navPoint>
+     <navPoint id="id22" playOrder="22">
+       <navLabel>
+         <text>第三部分 过度自信与决策失误</text>
+       </navLabel>
+       <content src="text00001.html#filepos0000476211"/>
+     </navPoint>
+     <navPoint id="id23" playOrder="23">
+       <navLabel>
+         <text>第19章 “知道”的错觉</text>
+       </navLabel>
+       <content src="text00001.html#filepos0000476442"/>
+     </navPoint>
+     <navPoint id="id24" playOrder="24">
+       <navLabel>
+         <text>第20章 未来是不可预测的</text>
+       </navLabel>
+       <content src="text00002.html#filepos0000502589"/>
+     </navPoint>
+     <navPoint id="id25" playOrder="25">
+       <navLabel>
+         <text>第21章 直觉判断与公式运算，孰优孰劣？</text>
+       </navLabel>
+       <content src="text00002.html#filepos0000535842"/>
+     </navPoint>
+     <navPoint id="id26" playOrder="26">
+       <navLabel>
+         <text>第22章 什么时候可以相信专家的直觉？</text>
+       </navLabel>
+       <content src="text00002.html#filepos0000563777"/>
+     </navPoint>
+     <navPoint id="id27" playOrder="27">
+       <navLabel>
+         <text>第23章 努力养成采纳外部意见的决策习惯</text>
+       </navLabel>
+       <content src="text00002.html#filepos0000590928"/>
+     </navPoint>
+     <navPoint id="id28" playOrder="28">
+       <navLabel>
+         <text>第24章 乐观主义是一柄双刃剑</text>
+       </navLabel>
+       <content src="text00002.html#filepos0000614583"/>
+     </navPoint>
+     <navPoint id="id29" playOrder="29">
+       <navLabel>
+         <text>第四部分 选择与风险</text>
+       </navLabel>
+       <content src="text00002.html#filepos0000641890"/>
+     </navPoint>
+     <navPoint id="id30" playOrder="30">
+       <navLabel>
+         <text>第25章 事关风险与财富的抉择</text>
+       </navLabel>
+       <content src="text00002.html#filepos0000642109"/>
+     </navPoint>
+     <navPoint id="id31" playOrder="31">
+       <navLabel>
+         <text>第26章 更人性化的前景理论</text>
+       </navLabel>
+       <content src="text00002.html#filepos0000665434"/>
+     </navPoint>
+     <navPoint id="id32" playOrder="32">
+       <navLabel>
+         <text>第27章 禀赋效应与市场交易</text>
+       </navLabel>
+       <content src="text00002.html#filepos0000692591"/>
+     </navPoint>
+     <navPoint id="id33" playOrder="33">
+       <navLabel>
+         <text>第28章 公平性—经济交易的参照点</text>
+       </navLabel>
+       <content src="text00002.html#filepos0000719481"/>
+     </navPoint>
+     <navPoint id="id34" playOrder="34">
+       <navLabel>
+         <text>第29章 对结果可能性的权衡</text>
+       </navLabel>
+       <content src="text00003.html#filepos0000743491"/>
+     </navPoint>
+     <navPoint id="id35" playOrder="35">
+       <navLabel>
+         <text>第30章 被过分关注的罕见事件</text>
+       </navLabel>
+       <content src="text00003.html#filepos0000773973"/>
+     </navPoint>
+     <navPoint id="id36" playOrder="36">
+       <navLabel>
+         <text>第31章 能带来长远收益的风险政策</text>
+       </navLabel>
+       <content src="text00003.html#filepos0000822202"/>
+     </navPoint>
+     <navPoint id="id37" playOrder="37">
+       <navLabel>
+         <text>第32章 心理账户是如何影响我们的选择的？</text>
+       </navLabel>
+       <content src="text00003.html#filepos0000822202"/>
+     </navPoint>
+     <navPoint id="id38" playOrder="38">
+       <navLabel>
+         <text>第33章 评估结果的逆转</text>
+       </navLabel>
+       <content src="text00003.html#filepos0000850334"/>
+     </navPoint>
+     <navPoint id="id39" playOrder="39">
+       <navLabel>
+         <text>第34章 善用框架效应，让生活更美好</text>
+       </navLabel>
+       <content src="text00003.html#filepos0000872980"/>
+     </navPoint>
+     <navPoint id="id40" playOrder="40">
+       <navLabel>
+         <text>第五部分 两个自我</text>
+       </navLabel>
+       <content src="text00003.html#filepos0000901606"/>
+     </navPoint>
+     <navPoint id="id41" playOrder="41">
+       <navLabel>
+         <text>第35章 体验效用与决策效用的不一致</text>
+       </navLabel>
+       <content src="text00003.html#filepos0000901822"/>
+     </navPoint>
+     <navPoint id="id42" playOrder="42">
+       <navLabel>
+         <text>第36章 人生如戏</text>
+       </navLabel>
+       <content src="text00003.html#filepos0000922329"/>
+     </navPoint>
+     <navPoint id="id43" playOrder="43">
+       <navLabel>
+         <text>第37章 你有多幸福？</text>
+       </navLabel>
+       <content src="text00003.html#filepos0000934546"/>
+     </navPoint>
+     <navPoint id="id44" playOrder="44">
+       <navLabel>
+         <text>第38章 思考生活</text>
+       </navLabel>
+       <content src="text00003.html#filepos0000950631"/>
+     </navPoint>
+     <navPoint id="id45" playOrder="45">
+       <navLabel>
+         <text>结语</text>
+       </navLabel>
+       <content src="text00004.html#filepos0000975968"/>
+     </navPoint>
+     <navPoint id="id46" playOrder="46">
+       <navLabel>
+         <text>附录A 不确定性下的判断：启发法和偏见</text>
+       </navLabel>
+       <content src="text00004.html#filepos0001003357"/>
+     </navPoint>
+     <navPoint id="id47" playOrder="47">
+       <navLabel>
+         <text>附录B 选择、价值以及框架</text>
+       </navLabel>
+       <content src="text00004.html#filepos0001048589"/>
+     </navPoint>
+     <navPoint id="id48" playOrder="48">
+       <navLabel>
+         <text>致谢</text>
+       </navLabel>
+       <content src="text00004.html#filepos0001094232"/>
+     </navPoint>
+   </navMap>
+</ncx>

@@ -1,0 +1,6 @@
+node_modules/
+uploads/
+*.epub
+*.zip
+*-[0-9]*/
+.DS_Store

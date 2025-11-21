@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns:opf="http://www.idpf.org/2007/opf" unique-identifier="bookid" xmlns="http://www.idpf.org/2007/opf" version="2.0">
+   <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:identifier id="bookid">urn:uuid:273fd756-62f2-4858-8d67-99e08f24bba9</dc:identifier>
+        <dc:contributor opf:file-as="CompanyName" opf:role="own">Epubor</dc:contributor>
+        <dc:contributor opf:file-as="PersonalName" opf:role="own">Ultimate</dc:contributor>
+        <dc:contributor opf:file-as="eCore" opf:role="bkp">eCore v0.9.6.652 [ http://www.epubor.com/ecore.html ]</dc:contributor>
+        <dc:contributor opf:file-as="SiteURL" opf:role="own">http://www.epubor.com</dc:contributor>
+        <meta name="cover" content="cover-image"/>
+        <dc:creator opf:file-as="丹尼尔•卡尼曼" opf:role="aut">丹尼尔•卡尼曼</dc:creator>
+        <dc:date opf:event="publication">2012-06-30T16:00:00+00:00</dc:date>
+        <dc:identifier opf:scheme="ASIN">259b6276-804d-4b6e-bef4-b717623a8965</dc:identifier>
+        <dc:language>zh</dc:language>
+        <dc:publisher>CTCCN</dc:publisher>
+        <dc:title>思考,快与慢</dc:title>
+   </metadata>
+   <manifest>
+        <item href="cover1.html" id="id_1" media-type="application/xhtml+xml"/>
+        <item href="text00000.html" id="id_2" media-type="application/xhtml+xml"/>
+        <item href="text00001.html" id="id_3" media-type="application/xhtml+xml"/>
+        <item href="text00002.html" id="id_4" media-type="application/xhtml+xml"/>
+        <item href="text00003.html" id="id_5" media-type="application/xhtml+xml"/>
+        <item href="text00004.html" id="id_6" media-type="application/xhtml+xml"/>
+        <item href="Image00000.jpg" id="id_7" media-type="image/jpeg"/>
+        <item href="Image00001.jpg" id="cover-image" media-type="image/jpeg"/>
+        <item href="Image00002.jpg" id="id_9" media-type="image/jpeg"/>
+        <item href="Image00003.jpg" id="id_10" media-type="image/jpeg"/>
+        <item href="Image00004.jpg" id="id_11" media-type="image/jpeg"/>
+        <item href="Image00005.jpg" id="id_12" media-type="image/jpeg"/>
+        <item href="Image00006.jpg" id="id_13" media-type="image/jpeg"/>
+        <item href="Image00007.jpg" id="id_14" media-type="image/jpeg"/>
+        <item href="Image00008.jpg" id="id_15" media-type="image/jpeg"/>
+        <item href="Image00009.jpg" id="id_16" media-type="image/jpeg"/>
+        <item href="Image00010.jpg" id="id_17" media-type="image/jpeg"/>
+        <item href="Image00011.jpg" id="id_18" media-type="image/jpeg"/>
+        <item href="Image00012.jpg" id="id_19" media-type="image/jpeg"/>
+        <item href="Image00013.jpg" id="id_20" media-type="image/jpeg"/>
+        <item href="Image00014.jpg" id="id_21" media-type="image/jpeg"/>
+        <item href="Image00015.jpg" id="id_22" media-type="image/jpeg"/>
+        <item href="Image00016.jpg" id="id_23" media-type="image/jpeg"/>
+        <item href="Image00017.jpg" id="id_24" media-type="image/jpeg"/>
+        <item href="Image00018.jpg" id="id_25" media-type="image/jpeg"/>
+        <item href="Image00019.jpg" id="id_26" media-type="image/jpeg"/>
+        <item href="Image00020.jpg" id="id_27" media-type="image/jpeg"/>
+        <item href="Image00021.jpg" id="id_28" media-type="image/jpeg"/>
+        <item href="Image00022.jpg" id="id_29" media-type="image/jpeg"/>
+        <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+   </manifest>
+   <spine toc = "ncx">
+        <itemref idref="id_1"/>
+        <itemref idref="id_2"/>
+        <itemref idref="id_3"/>
+        <itemref idref="id_4"/>
+        <itemref idref="id_5"/>
+        <itemref idref="id_6"/>
+   </spine>
+   <guide>
+        <reference type="toc" title="目录" href="text00000.html" />
+        <reference type="text" title="start" href="text00000.html#filepos0000010929" />
+        <reference type="cover" title="Cover Html" href="cover1.html" />
+   </guide>
+</package>
