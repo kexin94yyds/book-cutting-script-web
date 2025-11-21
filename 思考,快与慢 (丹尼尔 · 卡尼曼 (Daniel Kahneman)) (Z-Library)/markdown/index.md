@@ -1,4 +1,4 @@
-# 1763712410924-思考,快与慢 (丹尼尔 · 卡尼曼 (Daniel Kahneman)) (Z-Library)
+# 1763731225710-思考,快与慢 (丹尼尔 · 卡尼曼 (Daniel Kahneman)) (Z-Library)
 ## 目录
 
 - [untitled](markdown/001_untitled.md)

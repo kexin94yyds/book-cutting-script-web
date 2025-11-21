@@ -3,80 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📚 智能EPUB切书工具</title>
+    <title>📚 切书神技 Flow</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.js"></script>
     <style>
-        @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-20px); }
+        body {
+            background-color: #0f172a;
+            color: #e2e8f0;
+            font-family: system-ui, -apple-system, sans-serif;
+            overflow: hidden;
         }
-        @keyframes pulse-border {
-            0%, 100% { border-color: rgb(139, 92, 246); }
-            50% { border-color: rgb(236, 72, 153); }
+        .glass {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
-        .float-animation {
-            animation: float 3s ease-in-out infinite;
+        .glass-node {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
         }
-        .pulse-border {
-            animation: pulse-border 2s ease-in-out infinite;
+        .sidebar-glass {
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(12px);
+            border-right: 1px solid rgba(255, 255, 255, 0.05);
         }
-        .gradient-bg {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
         }
-        .glass-effect {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+        ::-webkit-scrollbar-track {
+            background: transparent;
         }
-        .file-item {
-            transition: all 0.3s ease;
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 3px;
         }
-        .file-item:hover {
-            transform: translateX(5px);
-            background: rgba(139, 92, 246, 0.1);
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
         }
     </style>
 </head>
-<body class="gradient-bg min-h-screen">
+<body>
     <div id="root"></div>
 
     <script type="text/babel">
-        const { useState, useRef } = React;
+        const { useState, useEffect, useRef } = React;
+        const { motion, AnimatePresence } = window.Motion;
+
+        // Icons
+        const Icons = {
+            Upload: () => <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>,
+            Zip: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10 2v20"/><path d="M14 2v20"/><path d="M4 10h16"/><path d="M4 14h16"/><rect x="4" y="2" width="16" height="20" rx="2"/></svg>,
+            File: () => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>,
+            ChevronDown: () => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="6 9 12 15 18 9"/></svg>,
+            Download: () => <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>,
+            Refresh: () => <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>,
+            History: () => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>,
+            Trash: () => <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>,
+            Check: () => <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>,
+            X: () => <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        };
 
         function App() {
-            const [isDragging, setIsDragging] = useState(false);
-            const [files, setFiles] = useState([]);
-            const [processing, setProcessing] = useState(false);
-            const [progress, setProgress] = useState(0);
-            const [currentFile, setCurrentFile] = useState('');
-            const [logs, setLogs] = useState([]);
-            const [results, setResults] = useState([]);
+            const [status, setStatus] = useState('idle'); // idle, processing, completed
+            const [result, setResult] = useState(null);
+            const [isExpanded, setIsExpanded] = useState(false);
+            const [dragActive, setDragActive] = useState(false);
+            const [history, setHistory] = useState([]);
+            const [showHistory, setShowHistory] = useState(false);
             const fileInputRef = useRef(null);
 
-            const handleDragOver = (e) => {
-                e.preventDefault();
-                setIsDragging(true);
+            const packageItems = result ? [
+                {
+                    key: 'html',
+                    title: 'HTML 原始内容',
+                    subtitle: 'html/ 目录（ZIP）',
+                    type: 'zip',
+                    href: `/download?path=${encodeURIComponent(result.outputDir + '/html')}`,
+                    downloadName: `${result.name}-html.zip`,
+                    mime: 'application/zip',
+                },
+                {
+                    key: 'markdown',
+                    title: 'Markdown 章节',
+                    subtitle: 'markdown/ 目录（ZIP）',
+                    type: 'zip',
+                    href: `/download?path=${encodeURIComponent(result.outputDir + '/markdown')}`,
+                    downloadName: `${result.name}-markdown.zip`,
+                    mime: 'application/zip',
+                },
+                {
+                    key: 'txt',
+                    title: 'TXT 章节',
+                    subtitle: 'txt/ 目录（ZIP）',
+                    type: 'zip',
+                    href: `/download?path=${encodeURIComponent(result.outputDir + '/txt')}`,
+                    downloadName: `${result.name}-txt.zip`,
+                    mime: 'application/zip',
+                },
+                {
+                    key: 'full-md',
+                    title: '整本 Markdown',
+                    subtitle: `${result.name}.md`,
+                    type: 'file',
+                    href: `/${result.relativeUrl}/${result.name}.md`,
+                    downloadName: `${result.name}.md`,
+                    mime: 'text/markdown',
+                },
+                {
+                    key: 'full-txt',
+                    title: '整本 TXT',
+                    subtitle: `${result.name}.txt`,
+                    type: 'file',
+                    href: `/${result.relativeUrl}/${result.name}.txt`,
+                    downloadName: `${result.name}.txt`,
+                    mime: 'text/plain',
+                },
+            ] : [];
+
+            useEffect(() => {
+                const savedHistory = localStorage.getItem('epub-history');
+                if (savedHistory) {
+                    try {
+                        setHistory(JSON.parse(savedHistory));
+                    } catch (e) {
+                        console.error("Failed to load history", e);
+                    }
+                }
+            }, []);
+
+            const saveHistory = (newHistory) => {
+                setHistory(newHistory);
+                localStorage.setItem('epub-history', JSON.stringify(newHistory));
             };
 
-            const handleDragLeave = (e) => {
+            const addToHistory = (item) => {
+                const newHistory = [item, ...history];
+                saveHistory(newHistory);
+            };
+
+            const removeFromHistory = (id) => {
+                const newHistory = history.filter(item => item.id !== id);
+                saveHistory(newHistory);
+            };
+
+            const loadFromHistory = (item) => {
+                setResult(item);
+                setStatus('completed');
+                setIsExpanded(false);
+                setShowHistory(false);
+            };
+
+            const handleDrag = (e) => {
                 e.preventDefault();
-                setIsDragging(false);
+                e.stopPropagation();
+                if (e.type === "dragenter" || e.type === "dragover") {
+                    setDragActive(true);
+                } else if (e.type === "dragleave") {
+                    setDragActive(false);
+                }
             };
 
             const handleDrop = (e) => {
                 e.preventDefault();
-                setIsDragging(false);
+                e.stopPropagation();
+                setDragActive(false);
+                
                 const droppedFiles = Array.from(e.dataTransfer.files).filter(
                     file => file.name.endsWith('.epub')
                 );
+                
                 if (droppedFiles.length > 0) {
-                    setFiles(prevFiles => [...prevFiles, ...droppedFiles]);
-                    addLog(`📥 已添加 ${droppedFiles.length} 个EPUB文件`);
-                } else {
-                    addLog('⚠️ 请拖入.epub格式的文件', 'warning');
+                    processFile(droppedFiles[0]);
                 }
             };
 
@@ -85,318 +190,332 @@
                     file => file.name.endsWith('.epub')
                 );
                 if (selectedFiles.length > 0) {
-                    setFiles(prevFiles => [...prevFiles, ...selectedFiles]);
-                    addLog(`📥 已选择 ${selectedFiles.length} 个EPUB文件`);
+                    processFile(selectedFiles[0]);
                 }
             };
 
-            const removeFile = (index) => {
-                setFiles(prevFiles => prevFiles.filter((_, i) => i !== index));
-                addLog('🗑️ 已移除文件');
-            };
+            const processFile = async (file) => {
+                setStatus('processing');
+                setResult(null);
+                setIsExpanded(false);
+                
+                const formData = new FormData();
+                formData.append('file', file);
 
-            const addLog = (message, type = 'info') => {
-                setLogs(prev => [...prev, { message, type, time: new Date().toLocaleTimeString() }]);
-            };
-
-            const processFiles = async () => {
-                if (files.length === 0) {
-                    addLog('⚠️ 请先添加EPUB文件', 'warning');
-                    return;
-                }
-
-                setProcessing(true);
-                setProgress(0);
-                setResults([]);
-                addLog('🚀 开始处理文件...');
-
-                for (let i = 0; i < files.length; i++) {
-                    const file = files[i];
-                    setCurrentFile(file.name);
-                    setProgress(((i + 1) / files.length) * 100);
-                    
-                    addLog(`📖 正在处理: ${file.name}`);
-
-                    try {
-                        const formData = new FormData();
-                        formData.append('file', file);
-
-                        const response = await fetch('/upload', {
-                            method: 'POST',
-                            body: formData
-                        });
-
-                        if (!response.ok) {
-                            throw new Error('处理失败');
-                        }
-
-                        const result = await response.json();
-                        
-                        if (result.success) {
-                            addLog(`✅ ${file.name} 处理完成!`);
-                            setResults(prev => [...prev, {
-                                name: file.name,
-                                outputDir: result.outputDir,
-                                chapters: result.chapters || [],
-                                success: true
-                            }]);
-                        } else {
-                            throw new Error(result.error || '未知错误');
-                        }
-                    } catch (error) {
-                        addLog(`❌ ${file.name} 处理失败: ${error.message}`, 'error');
-                        setResults(prev => [...prev, {
-                            name: file.name,
-                            success: false,
-                            error: error.message
-                        }]);
-                    }
-                }
-
-                setProcessing(false);
-                setCurrentFile('');
-                addLog('🎉 所有文件处理完成!');
-            };
-
-            const clearAll = () => {
-                setFiles([]);
-                setLogs([]);
-                setResults([]);
-                setProgress(0);
-                addLog('🔄 已清空所有内容');
-            };
-
-            const downloadResult = async (outputDir) => {
                 try {
-                    const response = await fetch(`/download?path=${encodeURIComponent(outputDir)}`);
-                    const blob = await response.blob();
-                    const url = window.URL.createObjectURL(blob);
-                    const a = document.createElement('a');
-                    a.href = url;
-                    a.download = `${outputDir.split('/').pop()}.zip`;
-                    a.click();
-                    window.URL.revokeObjectURL(url);
-                    addLog(`📦 下载完成: ${outputDir.split('/').pop()}.zip`);
-                } catch (error) {
-                    addLog(`❌ 下载失败: ${error.message}`, 'error');
+                    const res = await fetch('/upload', { method: 'POST', body: formData });
+                    const data = await res.json();
+                    
+                    if (data.success) {
+                        setTimeout(() => {
+                            const newResult = {
+                                id: Date.now().toString(),
+                                name: file.name.replace('.epub', ''),
+                                outputDir: data.outputDir,
+                                relativeUrl: data.relativeUrl,
+                                chapters: data.chapters || [],
+                                date: new Date().toLocaleString()
+                            };
+                            setResult(newResult);
+                            setStatus('completed');
+                            addToHistory(newResult);
+                        }, 1000);
+                    } else {
+                        alert('处理失败: ' + data.error);
+                        setStatus('idle');
+                    }
+                } catch (err) {
+                    console.error(err);
+                    alert('上传失败');
+                    setStatus('idle');
                 }
+            };
+
+            const downloadZip = (targetResult) => {
+                const r = targetResult || result;
+                if (!r) return;
+                const link = document.createElement('a');
+                link.href = `/download?path=${encodeURIComponent(r.outputDir)}`;
+                link.download = `${r.name}.zip`;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            };
+
+            const reset = () => {
+                setStatus('idle');
+                setResult(null);
+                setIsExpanded(false);
             };
 
             return (
-                <div className="min-h-screen p-8">
-                    <div className="max-w-6xl mx-auto">
-                        {/* Header */}
-                        <div className="text-center mb-12 float-animation">
-                            <h1 className="text-6xl font-bold text-white mb-4">
-                                📚 智能EPUB切书工具
-                            </h1>
-                            <p className="text-xl text-white/80">
-                                拖入你的EPUB文件，自动按章节智能切分
-                            </p>
+                <div className="h-screen w-screen flex overflow-hidden bg-[#0f172a] text-slate-200 font-sans">
+                    
+                    {/* Sidebar Toggle (Mobile/when hidden) */}
+                    <button 
+                        onClick={() => setShowHistory(!showHistory)}
+                        className={`absolute top-6 left-6 z-50 p-2 rounded-lg bg-slate-800/50 hover:bg-slate-700 transition-colors ${showHistory ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}
+                    >
+                        <Icons.History />
+                    </button>
+
+                    {/* History Sidebar */}
+                    <motion.div 
+                        initial={{ x: -320 }}
+                        animate={{ x: showHistory ? 0 : -320 }}
+                        className="fixed top-0 left-0 h-full w-80 sidebar-glass z-40 flex flex-col shadow-2xl"
+                    >
+                        <div className="p-6 border-b border-slate-700/50 flex items-center justify-between">
+                            <h2 className="text-xl font-bold flex items-center gap-2">
+                                <Icons.History />
+                                <span>下载记录</span>
+                            </h2>
+                            <button onClick={() => setShowHistory(false)} className="p-1 hover:bg-slate-700 rounded">
+                                <Icons.X />
+                            </button>
                         </div>
-
-                        {/* Main Grid */}
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                            {/* Left Column - Upload & Files */}
-                            <div className="space-y-6">
-                                {/* Drop Zone */}
-                                <div
-                                    onDragOver={handleDragOver}
-                                    onDragLeave={handleDragLeave}
-                                    onDrop={handleDrop}
-                                    onClick={() => fileInputRef.current?.click()}
-                                    className={`glass-effect rounded-3xl p-12 text-center cursor-pointer transition-all duration-300 ${
-                                        isDragging 
-                                            ? 'pulse-border border-4 scale-105' 
-                                            : 'border-2 border-white/30 hover:border-white/50'
-                                    }`}
-                                >
-                                    <input
-                                        type="file"
-                                        ref={fileInputRef}
-                                        onChange={handleFileSelect}
-                                        accept=".epub"
-                                        multiple
-                                        className="hidden"
-                                    />
-                                    <div className="text-6xl mb-4">
-                                        {isDragging ? '📂' : '📖'}
-                                    </div>
-                                    <h3 className="text-2xl font-bold text-white mb-2">
-                                        {isDragging ? '松开以上传' : '拖入EPUB文件'}
-                                    </h3>
-                                    <p className="text-white/70">
-                                        或点击选择文件
-                                    </p>
+                        <div className="flex-1 overflow-y-auto p-4 space-y-3">
+                            {history.length === 0 && (
+                                <div className="text-center text-slate-500 py-10 text-sm">
+                                    暂无记录
                                 </div>
-
-                                {/* File List */}
-                                {files.length > 0 && (
-                                    <div className="glass-effect rounded-3xl p-6">
-                                        <div className="flex justify-between items-center mb-4">
-                                            <h3 className="text-xl font-bold text-white">
-                                                待处理文件 ({files.length})
-                                            </h3>
-                                            <button
-                                                onClick={clearAll}
-                                                className="text-white/70 hover:text-white text-sm"
-                                            >
-                                                清空
-                                            </button>
-                                        </div>
-                                        <div className="space-y-2 max-h-60 overflow-y-auto">
-                                            {files.map((file, index) => (
-                                                <div
-                                                    key={index}
-                                                    className="file-item flex items-center justify-between p-3 rounded-xl bg-white/5"
-                                                >
-                                                    <div className="flex items-center space-x-3 flex-1 min-w-0">
-                                                        <span className="text-2xl">📕</span>
-                                                        <span className="text-white truncate">
-                                                            {file.name}
-                                                        </span>
-                                                    </div>
-                                                    <button
-                                                        onClick={() => removeFile(index)}
-                                                        className="text-red-400 hover:text-red-300 ml-2"
-                                                    >
-                                                        ✕
-                                                    </button>
-                                                </div>
-                                            ))}
-                                        </div>
-
-                                        {/* Action Buttons */}
-                                        <div className="mt-6 space-y-3">
-                                            <button
-                                                onClick={processFiles}
-                                                disabled={processing}
-                                                className="w-full bg-gradient-to-r from-violet-500 to-purple-600 text-white font-bold py-4 px-6 rounded-2xl hover:from-violet-600 hover:to-purple-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all transform hover:scale-105"
-                                            >
-                                                {processing ? '🔄 处理中...' : '🚀 开始处理'}
-                                            </button>
-                                        </div>
-
-                                        {/* Progress Bar */}
-                                        {processing && (
-                                            <div className="mt-4">
-                                                <div className="flex justify-between text-sm text-white/70 mb-2">
-                                                    <span>{currentFile}</span>
-                                                    <span>{Math.round(progress)}%</span>
-                                                </div>
-                                                <div className="h-3 bg-white/10 rounded-full overflow-hidden">
-                                                    <div
-                                                        className="h-full bg-gradient-to-r from-green-400 to-blue-500 transition-all duration-300"
-                                                        style={{ width: `${progress}%` }}
-                                                    />
-                                                </div>
-                                            </div>
-                                        )}
+                            )}
+                            {history.map(item => (
+                                <div key={item.id} className="p-3 bg-slate-800/50 rounded-xl border border-slate-700 hover:border-blue-500/50 transition-all group">
+                                    <div className="flex justify-between items-start mb-2">
+                                        <h4 className="font-medium text-slate-200 truncate pr-2 flex-1">{item.name}</h4>
+                                        <button 
+                                            onClick={(e) => { e.stopPropagation(); removeFromHistory(item.id); }}
+                                            className="text-slate-600 hover:text-red-400 p-1 opacity-0 group-hover:opacity-100 transition-opacity"
+                                        >
+                                            <Icons.Trash />
+                                        </button>
                                     </div>
-                                )}
-                            </div>
-
-                            {/* Right Column - Logs & Results */}
-                            <div className="space-y-6">
-                                {/* Logs */}
-                                <div className="glass-effect rounded-3xl p-6">
-                                    <h3 className="text-xl font-bold text-white mb-4">
-                                        📋 处理日志
-                                    </h3>
-                                    <div className="space-y-2 max-h-80 overflow-y-auto">
-                                        {logs.length === 0 ? (
-                                            <p className="text-white/50 text-center py-8">
-                                                暂无日志
-                                            </p>
-                                        ) : (
-                                            logs.map((log, index) => (
-                                                <div
-                                                    key={index}
-                                                    className={`p-3 rounded-xl ${
-                                                        log.type === 'error' 
-                                                            ? 'bg-red-500/20' 
-                                                            : log.type === 'warning'
-                                                            ? 'bg-yellow-500/20'
-                                                            : 'bg-white/5'
-                                                    }`}
-                                                >
-                                                    <div className="flex justify-between items-start">
-                                                        <span className="text-white text-sm flex-1">
-                                                            {log.message}
-                                                        </span>
-                                                        <span className="text-white/50 text-xs ml-2">
-                                                            {log.time}
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            ))
-                                        )}
+                                    <p className="text-xs text-slate-500 mb-3">{item.date}</p>
+                                    <div className="flex gap-2">
+                                        <button 
+                                            onClick={() => loadFromHistory(item)}
+                                            className="flex-1 py-1.5 bg-blue-600/20 text-blue-400 rounded-lg text-xs hover:bg-blue-600 hover:text-white transition-colors"
+                                        >
+                                            查看
+                                        </button>
+                                        <button 
+                                            onClick={() => downloadZip(item)}
+                                            className="flex-1 py-1.5 bg-slate-700/50 text-slate-400 rounded-lg text-xs hover:bg-slate-700 hover:text-white transition-colors flex items-center justify-center gap-1"
+                                        >
+                                            <Icons.Download /> 下载
+                                        </button>
                                     </div>
-                                </div>
-
-                                {/* Results */}
-                                {results.length > 0 && (
-                                    <div className="glass-effect rounded-3xl p-6">
-                                        <h3 className="text-xl font-bold text-white mb-4">
-                                            📦 处理结果
-                                        </h3>
-                                        <div className="space-y-3">
-                                            {results.map((result, index) => (
-                                                <div
-                                                    key={index}
-                                                    className={`p-4 rounded-xl ${
-                                                        result.success 
-                                                            ? 'bg-green-500/20' 
-                                                            : 'bg-red-500/20'
-                                                    }`}
-                                                >
-                                                    <div className="flex items-center justify-between mb-2">
-                                                        <span className="text-white font-semibold">
-                                                            {result.success ? '✅' : '❌'} {result.name}
-                                                        </span>
-                                                    </div>
-                                                    {result.success ? (
-                                                        <>
-                                                            <div className="text-white/70 text-sm mb-2">
-                                                                <p>输出目录: {result.outputDir}</p>
-                                                                {result.chapters.length > 0 && (
-                                                                    <p>章节数: {result.chapters.length}</p>
-                                                                )}
-                                                            </div>
-                                                            <button
-                                                                onClick={() => downloadResult(result.outputDir)}
-                                                                className="bg-white/20 text-white text-sm py-2 px-4 rounded-lg hover:bg-white/30 transition-all"
-                                                            >
-                                                                📥 下载结果
-                                                            </button>
-                                                        </>
-                                                    ) : (
-                                                        <p className="text-red-300 text-sm">
-                                                            错误: {result.error}
-                                                        </p>
-                                                    )}
-                                                </div>
-                                            ))}
-                                        </div>
-                                    </div>
-                                )}
-                            </div>
-                        </div>
-
-                        {/* Features */}
-                        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
-                            {[
-                                { icon: '🎯', title: '智能识别', desc: '自动提取章节标题' },
-                                { icon: '🌍', title: '多语言支持', desc: '中英文完美支持' },
-                                { icon: '📄', title: '多格式输出', desc: 'Markdown & TXT' }
-                            ].map((feature, index) => (
-                                <div key={index} className="glass-effect rounded-2xl p-6 text-center">
-                                    <div className="text-4xl mb-3">{feature.icon}</div>
-                                    <h4 className="text-white font-bold mb-2">{feature.title}</h4>
-                                    <p className="text-white/70 text-sm">{feature.desc}</p>
                                 </div>
                             ))}
                         </div>
+                    </motion.div>
+
+                    {/* Main Content */}
+                    <div className="flex-1 flex flex-col items-center h-full overflow-y-auto py-20 px-4 relative"
+                         onClick={() => showHistory && setShowHistory(false)}
+                    >
+                        {/* Reset Button */}
+                        {status === 'completed' && (
+                            <motion.button
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                onClick={reset}
+                                className="absolute top-8 right-8 flex items-center gap-2 px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-white transition-colors z-30 hover:bg-slate-700 border border-transparent hover:border-slate-600"
+                            >
+                                <Icons.Refresh />
+                                <span>处理新文件</span>
+                            </motion.button>
+                        )}
+
+                        {/* Main Upload Area */}
+                        <motion.div 
+                            layout
+                            className={`relative z-20 w-80 h-64 flex flex-col items-center justify-center rounded-3xl border-2 border-dashed transition-all duration-300 cursor-pointer group 
+                                ${dragActive ? 'border-blue-500 bg-blue-500/10 scale-105' : 'border-slate-700 bg-slate-900/50'} 
+                                ${status === 'processing' ? 'border-blue-500 shadow-[0_0_30px_rgba(59,130,246,0.2)]' : 'hover:border-slate-500 hover:bg-slate-800/50'}
+                            `}
+                            onDragEnter={handleDrag}
+                            onDragLeave={handleDrag}
+                            onDragOver={handleDrag}
+                            onDrop={handleDrop}
+                            onClick={() => status === 'idle' && fileInputRef.current?.click()}
+                        >
+                            <input 
+                                type="file" 
+                                ref={fileInputRef}
+                                accept=".epub" 
+                                className="hidden"
+                                onChange={handleFileSelect}
+                                disabled={status !== 'idle'}
+                            />
+                            
+                            {status === 'processing' ? (
+                                <div className="flex flex-col items-center">
+                                    <div className="w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mb-4"></div>
+                                    <span className="text-blue-400 animate-pulse font-medium">正在施展切书神技...</span>
+                                </div>
+                            ) : status === 'completed' ? (
+                                <div className="text-center p-6 w-full">
+                                    <div className="w-20 h-20 bg-green-500/20 text-green-400 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg shadow-green-500/10">
+                                        <Icons.Check />
+                                    </div>
+                                    <h3 className="text-xl font-bold text-white mb-1">处理完成</h3>
+                                    <p className="text-sm text-slate-400 truncate px-4">{result?.name}</p>
+                                </div>
+                            ) : (
+                                <div className="flex flex-col items-center text-center p-6">
+                                    <div className="w-20 h-20 bg-slate-800 rounded-2xl flex items-center justify-center mb-6 text-slate-400 group-hover:text-white group-hover:scale-110 group-hover:bg-slate-700 transition-all duration-300 shadow-xl">
+                                        <Icons.Upload />
+                                    </div>
+                                    <h3 className="text-lg font-bold text-white mb-2">拖入 EPUB 电子书</h3>
+                                    <p className="text-xs text-slate-500">支持拖拽或点击上传</p>
+                                </div>
+                            )}
+                        </motion.div>
+
+                        {/* Connector Arrow */}
+                        <AnimatePresence>
+                            {status === 'completed' && (
+                                <motion.div
+                                    initial={{ height: 0, opacity: 0 }}
+                                    animate={{ height: 80, opacity: 1 }}
+                                    exit={{ height: 0, opacity: 0 }}
+                                    className="w-px bg-slate-700 relative z-10 flex items-center justify-center"
+                                >
+                                    <motion.div 
+                                        initial={{ scale: 0 }}
+                                        animate={{ scale: 1 }}
+                                        transition={{ delay: 0.2 }}
+                                        className="w-6 h-6 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center z-20 absolute"
+                                    >
+                                        <div className="w-1 h-1 bg-slate-500 rounded-full" />
+                                    </motion.div>
+                                </motion.div>
+                            )}
+                        </AnimatePresence>
+
+                        {/* The Package (Zip) Node */}
+                        <AnimatePresence>
+                            {status === 'completed' && (
+                                <motion.div
+                                    initial={{ opacity: 0, y: -20, scale: 0.8 }}
+                                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                                    transition={{ delay: 0.3, type: "spring" }}
+                                    className="relative z-20"
+                                >
+                                    <div 
+                                        className={`glass-node w-48 p-5 rounded-2xl flex flex-col items-center gap-3 cursor-pointer transition-all duration-300 group 
+                                            ${isExpanded ? 'ring-2 ring-blue-500/50 border-blue-500 bg-blue-900/20' : 'hover:border-blue-400 hover:-translate-y-1'}`}
+                                        onClick={() => setIsExpanded(!isExpanded)}
+                                    >
+                                        <div className="relative">
+                                            <div className="p-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl text-white shadow-lg shadow-blue-600/20 group-hover:scale-105 transition-transform">
+                                                <Icons.Zip />
+                                            </div>
+                                            {/* Badge indicating file count */}
+                                            <div className="absolute -top-2 -right-2 w-6 h-6 bg-red-500 text-white text-xs font-bold rounded-full flex items-center justify-center border-2 border-slate-900">
+                                                {result?.chapters.length}
+                                            </div>
+                                        </div>
+                                        
+                                        <div className="text-center">
+                                            <span className="block text-base font-bold text-slate-200 group-hover:text-blue-400 transition-colors">打包完成</span>
+                                            <span className="text-xs text-slate-500">点击{isExpanded ? '收起' : '拆包'} / 下载</span>
+                                        </div>
+
+                                        <div 
+                                            className="absolute -right-14 top-1/2 -translate-y-1/2 p-3 bg-slate-800 rounded-full text-slate-400 hover:text-white hover:bg-blue-600 transition-all opacity-0 group-hover:opacity-100 shadow-xl translate-x-[-10px] group-hover:translate-x-0"
+                                            onClick={(e) => { e.stopPropagation(); downloadZip(); }}
+                                            title="下载 ZIP 压缩包"
+                                        >
+                                            <Icons.Download />
+                                        </div>
+                                    </div>
+                                </motion.div>
+                            )}
+                        </AnimatePresence>
+
+                        {/* Decomposed Files Area */}
+                        <AnimatePresence>
+                            {status === 'completed' && isExpanded && result && packageItems.length > 0 && (
+                                <motion.div
+                                    initial={{ opacity: 0, height: 0 }}
+                                    animate={{ opacity: 1, height: 'auto' }}
+                                    exit={{ opacity: 0, height: 0 }}
+                                    className="w-full max-w-7xl flex flex-col items-center mt-0"
+                                >
+                                    {/* Connection Line */}
+                                    <motion.div 
+                                        initial={{ height: 0 }}
+                                        animate={{ height: 60 }}
+                                        className="w-px bg-gradient-to-b from-blue-500/50 to-slate-700"
+                                    />
+
+                                    {/* Files Grid Container */}
+                                    <motion.div 
+                                        initial={{ opacity: 0, y: 20 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        className="w-full p-8 rounded-3xl bg-slate-900/30 border border-slate-800 backdrop-blur-sm"
+                                    >
+                                        <div className="flex items-center justify-between mb-6 px-2">
+                                            <h4 className="text-slate-400 text-sm font-medium flex items-center gap-2">
+                                                <Icons.File />
+                                                <span>压缩包内容 ({packageItems.length} 个项目)</span>
+                                            </h4>
+                                            <span className="text-xs text-slate-600">可拖拽文件至桌面</span>
+                                        </div>
+
+                                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                                            {packageItems.map((item, idx) => {
+                                                const fileUrl = item.href.startsWith('http')
+                                                    ? item.href
+                                                    : `${window.location.origin}${item.href}`;
+                                                
+                                                return (
+                                                    <motion.div
+                                                        key={item.key}
+                                                        initial={{ opacity: 0, scale: 0.8 }}
+                                                        animate={{ opacity: 1, scale: 1 }}
+                                                        transition={{ delay: idx * 0.03 }}
+                                                    >
+                                                        <a 
+                                                            href={item.href}
+                                                            download={item.downloadName}
+                                                            className="group relative flex flex-col items-center p-4 rounded-xl bg-slate-800/50 border border-slate-700 hover:bg-slate-700/50 hover:border-blue-500/50 transition-all cursor-grab active:cursor-grabbing"
+                                                            draggable="true"
+                                                            onDragStart={(e) => {
+                                                                e.dataTransfer.setData(
+                                                                    "DownloadURL",
+                                                                    `${item.mime}:${item.downloadName}:${fileUrl}`
+                                                                );
+                                                            }}
+                                                        >
+                                                            <div className="w-12 h-12 mb-3 rounded-lg bg-slate-700/50 flex items-center justify-center text-slate-400 group-hover:text-blue-400 group-hover:scale-110 transition-all">
+                                                                <Icons.File />
+                                                            </div>
+                                                            <span className="text-xs text-center text-slate-200 font-medium w-full break-all">
+                                                                {item.title}
+                                                            </span>
+                                                            <span className="text-[11px] text-center text-slate-400 w-full break-all mt-1">
+                                                                {item.subtitle}
+                                                            </span>
+                                                            
+                                                            <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity text-blue-400">
+                                                                <Icons.Download />
+                                                            </div>
+                                                        </a>
+                                                    </motion.div>
+                                                );
+                                            })}
+                                        </div>
+                                    </motion.div>
+                                </motion.div>
+                            )}
+                        </AnimatePresence>
+                        
+                        {/* Bottom Spacer */}
+                        <div className="h-20"></div>
                     </div>
                 </div>
             );

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uuid_id" prefix="calibre: https://calibre-ebook.com">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata">
+    <dc:title id="id">NAVAL - How to Get Rich (Without Getting Lucky)</dc:title>
+    <dc:creator id="id-1">Naval Ravikant</dc:creator>
+    <dc:creator id="id-2">Babak Nivi</dc:creator>
+    <dc:identifier>calibre:26230</dc:identifier>
+    <dc:identifier>uuid:25de2ee6-5c9a-4c62-9765-3c57e5a4025a</dc:identifier>
+    <dc:identifier id="uuid_id">uuid:25de2ee6-5c9a-4c62-9765-3c57e5a4025a</dc:identifier>
+    <dc:language>en</dc:language>
+    <dc:description>&lt;div&gt;
+&lt;p style="font-weight: bold"&gt;Getting rich is not just about luck; happiness is not just a trait we are born with. &lt;/p&gt;
+&lt;p&gt;These aspirations may seem out of reach, but building wealth and being happy are skills we can learn. &lt;/p&gt;
+&lt;p&gt;So what are these skills, and how do we learn them? What are the principles that should guide our efforts? What does progress really look like? &lt;/p&gt;
+&lt;p&gt;Naval Ravikant is an entrepreneur, philosopher, and investor who has captivated the world with his principles for building wealth and creating long-term happiness. &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;NAVAL - How to Get Rich&lt;/em&gt; is a collection of Naval’s most insightful interviews and poignant reflections. Through Naval’s own words, you will learn how to walk your own unique path toward a happier, wealthier life. &lt;/p&gt;
+&lt;hr&gt;&lt;/div&gt;</dc:description>
+    <dc:publisher>Vibhatsu</dc:publisher>
+    <dc:subject>Business</dc:subject>
+    <dc:subject>Finance</dc:subject>
+    <dc:subject>Investments</dc:subject>
+    <dc:subject>Non-fiction</dc:subject>
+    <dc:subject>Self-Help</dc:subject>
+    <meta refines="#id" property="title-type">main</meta>
+    <meta refines="#id" property="file-as">NAVAL - How to Get Rich (Without Getting Lucky)</meta>
+    <meta name="cover" content="cover"/>
+    <meta property="calibre:timestamp" scheme="dcterms:W3CDTF">2023-09-30T08:56:23Z</meta>
+    <meta property="dcterms:modified" scheme="dcterms:W3CDTF">2023-09-30T08:59:14Z</meta>
+    <meta refines="#id-1" property="role" scheme="marc:relators">aut</meta>
+    <meta refines="#id-1" property="file-as">Ravikant, Naval</meta>
+    <meta refines="#id-2" property="role" scheme="marc:relators">aut</meta>
+    <meta refines="#id-2" property="file-as">Nivi, Babak</meta>
+  </metadata>
+  <manifest>
+    <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg calibre:title-page"/>
+    <item id="calibre_jacket" href="jacket.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id0" href="title.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id1" href="cont.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id2" href="lesson01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id3" href="lesson02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id4" href="lesson03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id5" href="lesson04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id6" href="lesson05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id7" href="lesson06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id8" href="lesson07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id9" href="lesson08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id10" href="lesson09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id11" href="lesson10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id12" href="lesson11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id13" href="lesson12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id14" href="lesson13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id15" href="lesson14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id16" href="lesson15.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id17" href="lesson16.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id18" href="lesson17.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id19" href="lesson18.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id20" href="lesson19.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id21" href="lesson20.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id22" href="lesson21.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id23" href="lesson22.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id24" href="lesson23.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id25" href="lesson24.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id26" href="lesson25.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id27" href="lesson26.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id28" href="lesson27.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id29" href="lesson28.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id30" href="lesson29.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id31" href="lesson30.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id32" href="lesson31.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id33" href="lesson32.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id34" href="lesson33.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id35" href="lesson34.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id36" href="lesson35.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id37" href="lesson36.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id38" href="lesson37.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id39" href="lesson38.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id40" href="lesson39.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id41" href="lesson40.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id42" href="lesson41.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id43" href="lesson42.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id44" href="lesson43.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id45" href="lesson44.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id46" href="lesson45.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id47" href="lesson46.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id48" href="lesson47.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id49" href="lesson48.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id50" href="lesson49.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id51" href="lesson50.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id52" href="bonus.xhtml" media-type="application/xhtml+xml"/>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="toc" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="page_css" href="page_styles.css" media-type="text/css"/>
+    <item id="page_css1" href="page_styles1.css" media-type="text/css"/>
+    <item id="css" href="stylesheet.css" media-type="text/css"/>
+    <item id="cover" href="cover.jpeg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="id63" href="thisEPubs.png" media-type="image/png"/>
+    <item id="id61" href="american-typewriter.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id54" href="Bookerly-Bold.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id55" href="Bookerly-Italic.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id56" href="Bookerly.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id62" href="Novante.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id57" href="Poppins_Bold_.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id58" href="Poppins_Italic_.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id59" href="Poppins_Light_Regular_.ttf" media-type="application/vnd.ms-opentype"/>
+    <item id="id60" href="Poppins_Regular_.ttf" media-type="application/vnd.ms-opentype"/>
+  </manifest>
+  <spine toc="toc">
+    <itemref idref="titlepage"/>
+    <itemref idref="calibre_jacket"/>
+    <itemref idref="id0"/>
+    <itemref idref="id1"/>
+    <itemref idref="id2"/>
+    <itemref idref="id3"/>
+    <itemref idref="id4"/>
+    <itemref idref="id5"/>
+    <itemref idref="id6"/>
+    <itemref idref="id7"/>
+    <itemref idref="id8"/>
+    <itemref idref="id9"/>
+    <itemref idref="id10"/>
+    <itemref idref="id11"/>
+    <itemref idref="id12"/>
+    <itemref idref="id13"/>
+    <itemref idref="id14"/>
+    <itemref idref="id15"/>
+    <itemref idref="id16"/>
+    <itemref idref="id17"/>
+    <itemref idref="id18"/>
+    <itemref idref="id19"/>
+    <itemref idref="id20"/>
+    <itemref idref="id21"/>
+    <itemref idref="id22"/>
+    <itemref idref="id23"/>
+    <itemref idref="id24"/>
+    <itemref idref="id25"/>
+    <itemref idref="id26"/>
+    <itemref idref="id27"/>
+    <itemref idref="id28"/>
+    <itemref idref="id29"/>
+    <itemref idref="id30"/>
+    <itemref idref="id31"/>
+    <itemref idref="id32"/>
+    <itemref idref="id33"/>
+    <itemref idref="id34"/>
+    <itemref idref="id35"/>
+    <itemref idref="id36"/>
+    <itemref idref="id37"/>
+    <itemref idref="id38"/>
+    <itemref idref="id39"/>
+    <itemref idref="id40"/>
+    <itemref idref="id41"/>
+    <itemref idref="id42"/>
+    <itemref idref="id43"/>
+    <itemref idref="id44"/>
+    <itemref idref="id45"/>
+    <itemref idref="id46"/>
+    <itemref idref="id47"/>
+    <itemref idref="id48"/>
+    <itemref idref="id49"/>
+    <itemref idref="id50"/>
+    <itemref idref="id51"/>
+    <itemref idref="id52"/>
+  </spine>
+</package>

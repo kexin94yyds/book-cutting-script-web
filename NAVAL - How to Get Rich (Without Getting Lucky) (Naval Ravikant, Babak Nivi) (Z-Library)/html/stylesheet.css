@@ -1,0 +1,459 @@
+.auth {
+  -adobe-hyphenate: auto;
+  -epub-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  display: block;
+  font-family: serif;
+  font-size: 115%;
+  hyphens: auto;
+  line-height: 1.2;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-indent: 0;
+  word-wrap: break-word;
+  margin: 1% auto 5%;
+}
+.bldcol {
+  color: #C00;
+  font-family: "American Typewriter", serif;
+  font-weight: bold;
+}
+.calibre {
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 5pt;
+}
+.calibre1 {
+  display: block;
+}
+.calibre2 {
+  display: table-row-group;
+  vertical-align: middle;
+}
+.calibre3 {
+  display: table-row;
+  vertical-align: inherit;
+}
+.calibre4 {
+  color: white;
+  display: none;
+  vertical-align: inherit;
+}
+.calibre5 {
+  display: table-cell;
+  text-align: inherit;
+  vertical-align: inherit;
+  padding: 1px;
+}
+.calibre6 {
+  display: block;
+  font-weight: bold;
+  margin: 1em 0;
+}
+.calibre7 {
+  display: block;
+  margin: 1em 0;
+}
+.calibre8 {
+  font-style: italic;
+}
+.calibre9 {
+  color: gray;
+  display: block;
+  height: 2px;
+  width: 80%;
+  margin: 0.5em auto 0.5em 10%;
+  border-top: white solid 0;
+  border-right: white solid 0;
+  border-bottom: black solid 2px;
+  border-left: white solid 0;
+}
+.calibre10 {
+  -adobe-hyphenate: auto;
+  -epub-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  display: block;
+  font-family: "Bookerly", serif;
+  font-feature-settings: "kern", "liga", "clig", "onum", "pnum";
+  font-kerning: normal;
+  font-variant: common-ligatures oldstyle-nums proportional-nums;
+  hyphens: auto;
+  margin: 0 5pt;
+  padding: 0;
+}
+.calibre11 {
+  display: block;
+  line-height: 1.2;
+}
+.calibre12 {
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  width: auto;
+  padding: 0;
+}
+.calibre13 {
+  color: #c00;
+  font-weight: bold;
+}
+.calibre14 {
+  -adobe-hyphenate: none;
+  -epub-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  color: #010203;
+  display: block;
+  font-family: serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  hyphens: none;
+  line-height: 1.2;
+  page-break-before: always;
+  text-align: center;
+  text-indent: 0;
+  text-transform: uppercase;
+  margin: 16% 9% 6%;
+}
+.calibre15 {
+  -adobe-hyphenate: auto;
+  -epub-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  display: block;
+  font-size: 95%;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-indent: 2%;
+  word-wrap: break-word;
+  margin: 1.25% auto;
+}
+.calibre16 {
+  display: block;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  margin-bottom: 1em;
+  margin-right: 0;
+  margin-top: 1em;
+}
+.calibre17 {
+  display: list-item;
+}
+.calibre18 {
+  text-decoration: underline;
+}
+.calibre19 {
+  font-style: italic;
+  text-decoration: line-through;
+}
+.calibre20 {
+  font-weight: bold;
+}
+.cbj_author {
+  color: #123;
+  display: table-cell;
+  font-size: 1.2em;
+  line-height: 1.2;
+  text-align: center;
+  vertical-align: inherit;
+  padding: 1px;
+}
+.cbj_banner {
+  background: #ff8;
+  border-radius: 8px;
+  color: DimGray;
+  display: block;
+  margin: 1em;
+  padding: 1em;
+  border: #96907a inset medium;
+}
+.cbj_comments {
+  background: #efebdd;
+  border-radius: 0.5em;
+  color: DarkSlateGray;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.83333em;
+  padding: 1em;
+  border: #a49a8b ridge medium;
+}
+.cbj_content {
+  color: darkgoldenrod;
+  display: table-cell;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8em;
+  text-align: left;
+  vertical-align: inherit;
+  width: 67%;
+  padding: 1px;
+}
+.cbj_footer {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9em;
+  margin-top: 8px;
+  text-align: center;
+}
+.cbj_header {
+  border-collapse: separate;
+  border-spacing: 2px;
+  display: table;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-indent: 0;
+  width: 100%;
+}
+.cbj_label {
+  color: #838b8b;
+  display: table-cell;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.85em;
+  text-align: right;
+  vertical-align: inherit;
+  width: 33%;
+  padding: 1px;
+}
+.cbj_title {
+  color: DarkSlateGray;
+  display: table-cell;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.45em;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  vertical-align: inherit;
+  padding: 1px;
+}
+.cn {
+  color: #C00;
+  font-family: "Poppins Light", sans-serif;
+  font-size: 165%;
+  font-weight: bold;
+  line-height: 2;
+  text-transform: lowercase;
+}
+.epi {
+  -adobe-hyphenate: auto;
+  -epub-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  color: #030201;
+  display: block;
+  font-family: serif;
+  font-size: 110%;
+  font-style: italic;
+  hyphens: auto;
+  line-height: 1.4;
+  overflow-wrap: break-word;
+  padding-top: 1.64em;
+  text-align: center;
+  text-indent: 2%;
+  word-wrap: break-word;
+  margin: 1.64em 9%;
+  border-top: #4c7aa9 solid 2px;
+}
+.hid {
+  -adobe-hyphenate: none;
+  -epub-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  color: #010203;
+  display: block;
+  font-family: serif;
+  font-size: 0;
+  font-weight: normal;
+  hyphens: none;
+  page-break-before: always;
+  text-align: center;
+  text-indent: 0;
+  text-transform: uppercase;
+  visibility: hidden;
+  margin: 0;
+}
+.hid1 {
+  font-family: serif;
+  font-size: 0;
+  font-weight: normal;
+  text-align: center;
+  visibility: hidden;
+  margin: 0;
+}
+.metadata_divider {
+  color: gray;
+  display: block;
+  height: 2px;
+  line-height: 1.2;
+  width: 90%;
+  margin: 0.5em auto 0.5em 5%;
+  border-top: white solid 0;
+  border-right: white solid 0;
+  border-bottom: black solid 1px;
+  border-left: white solid 0;
+}
+.noindnt {
+  -adobe-hyphenate: auto;
+  -epub-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  display: block;
+  font-size: 95%;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-indent: 0;
+  word-wrap: break-word;
+  margin: 0.618em auto;
+}
+.nound {
+  color: #00E;
+  text-decoration: none;
+}
+.sec {
+  color: #006994;
+  display: block;
+  font-family: "Poppins Light", sans-serif;
+  font-size: 109%;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  text-indent: 0;
+  margin: 6% auto 1%;
+}
+.sec1 {
+  -adobe-hyphenate: auto;
+  -epub-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  display: block;
+  font-size: 90%;
+  font-weight: normal;
+  hyphens: auto;
+  line-height: 1.2;
+  overflow-wrap: break-word;
+  text-indent: 0;
+  word-wrap: break-word;
+  margin: auto 6% 1% auto;
+}
+.subtitl {
+  -adobe-hyphenate: auto;
+  -epub-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  display: block;
+  font-family: serif;
+  font-size: 200%;
+  font-weight: 300;
+  hyphens: auto;
+  line-height: 1.2;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-indent: 0;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  margin: 0 auto 18.618%;
+}
+.subtitl1 {
+  display: block;
+  font-family: "Poppins Light", sans-serif;
+  font-size: 50%;
+  font-weight: bold;
+  padding-bottom: 9%;
+  text-align: center;
+  text-indent: 0;
+  text-transform: initial;
+  width: 60%;
+  margin: 0 auto;
+  border-bottom: #4c7aa9 solid 2px;
+}
+.titl {
+  -adobe-hyphenate: auto;
+  -epub-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  color: #4c7aa9;
+  display: block;
+  font-family: "Novante", serif;
+  font-size: 363%;
+  hyphens: auto;
+  line-height: 1.2;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-indent: 0;
+  word-wrap: break-word;
+  margin: 9.618% auto 1%;
+}
+.title {
+  line-height: 1.2;
+}
+.toc {
+  -adobe-hyphenate: auto;
+  -epub-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  display: block;
+  font-family: serif;
+  font-size: 95%;
+  font-style: italic;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-align: left;
+  text-indent: 2%;
+  word-wrap: break-word;
+  margin: 0 0 0.369em 1.618em;
+}
+.toc1 {
+  -adobe-hyphenate: auto;
+  -epub-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  display: block;
+  font-family: "Poppins Light", sans-serif;
+  font-size: 95%;
+  font-weight: bold;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-align: left;
+  text-indent: 0;
+  word-wrap: break-word;
+  margin: 0 0 0.269em 3.618em;
+}
+.vibhatsu {
+  -adobe-hyphenate: auto;
+  -epub-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  border-radius: 5px;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 83%;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-indent: 0;
+  word-wrap: break-word;
+  margin: 0 auto 1.25%;
+}
+.pcalibre:before {
+  color: #555;
+  content: "❛ ";
+  font-family: serif;
+  font-size: 161.28%;
+  line-height: 0;
+}

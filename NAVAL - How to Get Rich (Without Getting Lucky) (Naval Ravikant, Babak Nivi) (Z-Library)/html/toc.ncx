@@ -1,0 +1,1521 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta name="dtb:uid" content="uuid:25de2ee6-5c9a-4c62-9765-3c57e5a4025a"/>
+    <meta name="dtb:depth" content="3"/>
+    <meta name="dtb:generator" content="calibre (6.27.0)"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>NAVAL - How to Get Rich (Without Getting Lucky)</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_1" playOrder="1">
+      <navLabel>
+        <text>Cover</text>
+      </navLabel>
+      <content src="titlepage.xhtml#toc_1"/>
+    </navPoint>
+    <navPoint id="num_2" playOrder="2">
+      <navLabel>
+        <text>Jacket</text>
+      </navLabel>
+      <content src="jacket.xhtml#toc_1"/>
+    </navPoint>
+    <navPoint id="num_3" playOrder="3">
+      <navLabel>
+        <text>Title Page</text>
+      </navLabel>
+      <content src="title.xhtml"/>
+    </navPoint>
+    <navPoint id="num_4" playOrder="4">
+      <navLabel>
+        <text>Contents</text>
+      </navLabel>
+      <content src="cont.xhtml"/>
+    </navPoint>
+    <navPoint id="num_5" playOrder="5">
+      <navLabel>
+        <text>1 : Seek Wealth, Not Money or Status</text>
+      </navLabel>
+      <content src="lesson01.xhtml"/>
+      <navPoint id="num_6" playOrder="6">
+        <navLabel>
+          <text>Naval is a prolific tech investor and founder of AngelList</text>
+        </navLabel>
+        <content src="lesson01.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_7" playOrder="7">
+        <navLabel>
+          <text>Wealth is assets that earn while you sleep</text>
+        </navLabel>
+        <content src="lesson01.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_8" playOrder="8">
+        <navLabel>
+          <text>Wealth buys your freedom</text>
+        </navLabel>
+        <content src="lesson01.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_9" playOrder="9">
+        <navLabel>
+          <text>Money is how we transfer wealth</text>
+        </navLabel>
+        <content src="lesson01.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_10" playOrder="10">
+        <navLabel>
+          <text>Status is your rank in the social hierarchy</text>
+        </navLabel>
+        <content src="lesson01.xhtml#toc_5"/>
+      </navPoint>
+      <navPoint id="num_11" playOrder="11">
+        <navLabel>
+          <text>Status is a very old game</text>
+        </navLabel>
+        <content src="lesson01.xhtml#toc_6"/>
+      </navPoint>
+      <navPoint id="num_12" playOrder="12">
+        <navLabel>
+          <text>People creating wealth will always be attacked by people playing status games</text>
+        </navLabel>
+        <content src="lesson01.xhtml#toc_7"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_13" playOrder="13">
+      <navLabel>
+        <text>2 : Make Abundance for the World</text>
+      </navLabel>
+      <content src="lesson02.xhtml"/>
+      <navPoint id="num_14" playOrder="14">
+        <navLabel>
+          <text>Ethical wealth creation makes abundance for the world</text>
+        </navLabel>
+        <content src="lesson02.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_15" playOrder="15">
+        <navLabel>
+          <text>Everyone can be rich</text>
+        </navLabel>
+        <content src="lesson02.xhtml#toc_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_16" playOrder="16">
+      <navLabel>
+        <text>3 : Free Markets Are Intrinsic to Humans</text>
+      </navLabel>
+      <content src="lesson03.xhtml"/>
+      <navPoint id="num_17" playOrder="17">
+        <navLabel>
+          <text>Free markets are intrinsic to the human species</text>
+        </navLabel>
+        <content src="lesson03.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_18" playOrder="18">
+        <navLabel>
+          <text>Too many takers and not enough makers will plunge a society into ruin</text>
+        </navLabel>
+        <content src="lesson03.xhtml#toc_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_19" playOrder="19">
+      <navLabel>
+        <text>4 : Making Money Isn’t About Luck</text>
+      </navLabel>
+      <content src="lesson04.xhtml"/>
+      <navPoint id="num_20" playOrder="20">
+        <navLabel>
+          <text>Making money isn’t about luck</text>
+        </navLabel>
+        <content src="lesson04.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_21" playOrder="21">
+        <navLabel>
+          <text>1. Blind luck</text>
+        </navLabel>
+        <content src="lesson04.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_22" playOrder="22">
+        <navLabel>
+          <text>2. Luck from hustling</text>
+        </navLabel>
+        <content src="lesson04.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_23" playOrder="23">
+        <navLabel>
+          <text>3. Luck from preparation</text>
+        </navLabel>
+        <content src="lesson04.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_24" playOrder="24">
+        <navLabel>
+          <text>4. Luck from your unique character</text>
+        </navLabel>
+        <content src="lesson04.xhtml#toc_5"/>
+      </navPoint>
+      <navPoint id="num_25" playOrder="25">
+        <navLabel>
+          <text>In 1,000 parallel universes, you want to be wealthy in 999 of them</text>
+        </navLabel>
+        <content src="lesson04.xhtml#toc_6"/>
+      </navPoint>
+      <navPoint id="num_26" playOrder="26">
+        <navLabel>
+          <text>Wealth stacks up one chip at a time, not all at once</text>
+        </navLabel>
+        <content src="lesson04.xhtml#toc_7"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_27" playOrder="27">
+      <navLabel>
+        <text>5 : Make Luck Your Destiny</text>
+      </navLabel>
+      <content src="lesson05.xhtml"/>
+      <navPoint id="num_28" playOrder="28">
+        <navLabel>
+          <text>Build your character so opportunity finds you</text>
+        </navLabel>
+        <content src="lesson05.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_29" playOrder="29">
+        <navLabel>
+          <text>You have to be a little eccentric to be out on the frontier by yourself</text>
+        </navLabel>
+        <content src="lesson05.xhtml#toc_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_30" playOrder="30">
+      <navLabel>
+        <text>6 : You Won’t Get Rich Renting Out Your Time</text>
+      </navLabel>
+      <content src="lesson06.xhtml"/>
+      <navPoint id="num_31" playOrder="31">
+        <navLabel>
+          <text>You won’t get rich renting out your time</text>
+        </navLabel>
+        <content src="lesson06.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_32" playOrder="32">
+        <navLabel>
+          <text>Renting out your time means you’re essentially replaceable</text>
+        </navLabel>
+        <content src="lesson06.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_33" playOrder="33">
+        <navLabel>
+          <text>You must own equity to gain your financial freedom</text>
+        </navLabel>
+        <content src="lesson06.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_34" playOrder="34">
+        <navLabel>
+          <text>You want a career where your inputs don’t match your outputs</text>
+        </navLabel>
+        <content src="lesson06.xhtml#toc_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_35" playOrder="35">
+      <navLabel>
+        <text>7 : Live Below Your Means for Freedom</text>
+      </navLabel>
+      <content src="lesson07.xhtml"/>
+      <navPoint id="num_36" playOrder="36">
+        <navLabel>
+          <text>People living below their means have freedom</text>
+        </navLabel>
+        <content src="lesson07.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_37" playOrder="37">
+        <navLabel>
+          <text>The most dangerous things are heroin and a monthly salary</text>
+        </navLabel>
+        <content src="lesson07.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_38" playOrder="38">
+        <navLabel>
+          <text>Ideally, you’ll make your money in discrete lumps</text>
+        </navLabel>
+        <content src="lesson07.xhtml#toc_3"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_39" playOrder="39">
+      <navLabel>
+        <text>8 : Give Society What It Doesn’t Know How to Get</text>
+      </navLabel>
+      <content src="lesson08.xhtml"/>
+      <navPoint id="num_40" playOrder="40">
+        <navLabel>
+          <text>Give society what it wants, but doesn’t know how to get—at scale</text>
+        </navLabel>
+        <content src="lesson08.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_41" playOrder="41">
+        <navLabel>
+          <text>Figure out what product you can provide and then figure out how to scale it</text>
+        </navLabel>
+        <content src="lesson08.xhtml#toc_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_42" playOrder="42">
+      <navLabel>
+        <text>9 : The Internet Has Massively Broadened Career Possibilities</text>
+      </navLabel>
+      <content src="lesson09.xhtml"/>
+      <navPoint id="num_43" playOrder="43">
+        <navLabel>
+          <text>The Internet has massively broadened the possible space of careers</text>
+        </navLabel>
+        <content src="lesson09.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_44" playOrder="44">
+        <navLabel>
+          <text>The Internet allows you to scale any niche obsession</text>
+        </navLabel>
+        <content src="lesson09.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_45" playOrder="45">
+        <navLabel>
+          <text>Escape competition through authenticity</text>
+        </navLabel>
+        <content src="lesson09.xhtml#toc_3"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_46" playOrder="46">
+      <navLabel>
+        <text>10 : Play Long-Term Games With Long-Term People</text>
+      </navLabel>
+      <content src="lesson10.xhtml"/>
+      <navPoint id="num_47" playOrder="47">
+        <navLabel>
+          <text>Play long-term games with long-term people</text>
+        </navLabel>
+        <content src="lesson10.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_48" playOrder="48">
+        <navLabel>
+          <text>When you switch industries, you’re starting over from scratch</text>
+        </navLabel>
+        <content src="lesson10.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_49" playOrder="49">
+        <navLabel>
+          <text>Long-term players make each other rich</text>
+        </navLabel>
+        <content src="lesson10.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_50" playOrder="50">
+        <navLabel>
+          <text>Returns come from compound interest in iterated games</text>
+        </navLabel>
+        <content src="lesson10.xhtml#toc_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_51" playOrder="51">
+      <navLabel>
+        <text>11 : Pick Partners With Intelligence, Energy and Integrity</text>
+      </navLabel>
+      <content src="lesson11.xhtml"/>
+      <navPoint id="num_52" playOrder="52">
+        <navLabel>
+          <text>Pick business partners with high intelligence, energy and integrity</text>
+        </navLabel>
+        <content src="lesson11.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_53" playOrder="53">
+        <navLabel>
+          <text>Motivation has to come intrinsically</text>
+        </navLabel>
+        <content src="lesson11.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_54" playOrder="54">
+        <navLabel>
+          <text>Integrity is what someone does, despite what they say they do</text>
+        </navLabel>
+        <content src="lesson11.xhtml#toc_3"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_55" playOrder="55">
+      <navLabel>
+        <text>12 : Partner With Rational Optimists</text>
+      </navLabel>
+      <content src="lesson12.xhtml"/>
+      <navPoint id="num_56" playOrder="56">
+        <navLabel>
+          <text>Don’t partner with pessimists</text>
+        </navLabel>
+        <content src="lesson12.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_57" playOrder="57">
+        <navLabel>
+          <text>Partner with rational optimists</text>
+        </navLabel>
+        <content src="lesson12.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_58" playOrder="58">
+        <navLabel>
+          <text>We descended from pessimists</text>
+        </navLabel>
+        <content src="lesson12.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_59" playOrder="59">
+        <navLabel>
+          <text>BOCTAOE</text>
+        </navLabel>
+        <content src="lesson12.xhtml#toc_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_60" playOrder="60">
+      <navLabel>
+        <text>13 : Arm Yourself With Specific Knowledge</text>
+      </navLabel>
+      <content src="lesson13.xhtml"/>
+      <navPoint id="num_61" playOrder="61">
+        <navLabel>
+          <text>Arm yourself with specific knowledge</text>
+        </navLabel>
+        <content src="lesson13.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_62" playOrder="62">
+        <navLabel>
+          <text>Specific knowledge can’t be trained</text>
+        </navLabel>
+        <content src="lesson13.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_63" playOrder="63">
+        <navLabel>
+          <text>Specific knowledge is found by pursuing your curiosity</text>
+        </navLabel>
+        <content src="lesson13.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_64" playOrder="64">
+        <navLabel>
+          <text>Building specific knowledge will feel like play to you</text>
+        </navLabel>
+        <content src="lesson13.xhtml#toc_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_65" playOrder="65">
+      <navLabel>
+        <text>14 : Specific Knowledge Is Highly Creative or Technical</text>
+      </navLabel>
+      <content src="lesson14.xhtml"/>
+      <navPoint id="num_66" playOrder="66">
+        <navLabel>
+          <text>Specific knowledge can be taught through apprenticeships</text>
+        </navLabel>
+        <content src="lesson14.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_67" playOrder="67">
+        <navLabel>
+          <text>Specific knowledge is often highly creative or technical</text>
+        </navLabel>
+        <content src="lesson14.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_68" playOrder="68">
+        <navLabel>
+          <text>Specific knowledge is specific to the individual and situation</text>
+        </navLabel>
+        <content src="lesson14.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_69" playOrder="69">
+        <navLabel>
+          <text>You can’t be too deliberate about assembling specific knowledge</text>
+        </navLabel>
+        <content src="lesson14.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_70" playOrder="70">
+        <navLabel>
+          <text>Build specific knowledge where you are a natural</text>
+        </navLabel>
+        <content src="lesson14.xhtml#toc_5"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_71" playOrder="71">
+      <navLabel>
+        <text>15 : Learn to Sell, Learn to Build</text>
+      </navLabel>
+      <content src="lesson15.xhtml"/>
+      <navPoint id="num_72" playOrder="72">
+        <navLabel>
+          <text>Learn to sell, learn to build</text>
+        </navLabel>
+        <content src="lesson15.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_73" playOrder="73">
+        <navLabel>
+          <text>The Silicon Valley model is a builder and seller</text>
+        </navLabel>
+        <content src="lesson15.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_74" playOrder="74">
+        <navLabel>
+          <text>If you can do both you will be unstoppable</text>
+        </navLabel>
+        <content src="lesson15.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_75" playOrder="75">
+        <navLabel>
+          <text>I’d rather teach an engineer marketing than a marketer engineering</text>
+        </navLabel>
+        <content src="lesson15.xhtml#toc_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_76" playOrder="76">
+      <navLabel>
+        <text>16 : Read What You Love Until You Love to Read</text>
+      </navLabel>
+      <content src="lesson16.xhtml"/>
+      <navPoint id="num_77" playOrder="77">
+        <navLabel>
+          <text>Read what you love until you love to read</text>
+        </navLabel>
+        <content src="lesson16.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_78" playOrder="78">
+        <navLabel>
+          <text>Read the original scientific books in a field</text>
+        </navLabel>
+        <content src="lesson16.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_79" playOrder="79">
+        <navLabel>
+          <text>Don’t fear any book</text>
+        </navLabel>
+        <content src="lesson16.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_80" playOrder="80">
+        <navLabel>
+          <text>The means of learning are abundant; the desire to learn is scarce</text>
+        </navLabel>
+        <content src="lesson16.xhtml#toc_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_81" playOrder="81">
+      <navLabel>
+        <text>17 : The Foundations Are Math and Logic</text>
+      </navLabel>
+      <content src="lesson17.xhtml"/>
+      <navPoint id="num_82" playOrder="82">
+        <navLabel>
+          <text>The ultimate foundations are math and logic</text>
+        </navLabel>
+        <content src="lesson17.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_83" playOrder="83">
+        <navLabel>
+          <text>It’s better to read a great book slowly than to fly through a hundred books quickly</text>
+        </navLabel>
+        <content src="lesson17.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_84" playOrder="84">
+        <navLabel>
+          <text>Learn persuasion and programming</text>
+        </navLabel>
+        <content src="lesson17.xhtml#toc_3"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_85" playOrder="85">
+      <navLabel>
+        <text>18 : There’s No Actual Skill Called ‘Business’</text>
+      </navLabel>
+      <content src="lesson18.xhtml"/>
+      <navPoint id="num_86" playOrder="86">
+        <navLabel>
+          <text>There’s no actual skill called ‘business’</text>
+        </navLabel>
+        <content src="lesson18.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_87" playOrder="87">
+        <navLabel>
+          <text>Doing is faster than watching</text>
+        </navLabel>
+        <content src="lesson18.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_88" playOrder="88">
+        <navLabel>
+          <text>The number of ‘doing’ iterations drives the learning curve</text>
+        </navLabel>
+        <content src="lesson18.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_89" playOrder="89">
+        <navLabel>
+          <text>If you’re willing to bleed a little every day, you may win big later</text>
+        </navLabel>
+        <content src="lesson18.xhtml#toc_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_90" playOrder="90">
+      <navLabel>
+        <text>19 : Embrace Accountability to Get Leverage</text>
+      </navLabel>
+      <content src="lesson19.xhtml"/>
+      <navPoint id="num_91" playOrder="91">
+        <navLabel>
+          <text>You need accountability to get leverage</text>
+        </navLabel>
+        <content src="lesson19.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_92" playOrder="92">
+        <navLabel>
+          <text>Take business risks under your own name</text>
+        </navLabel>
+        <content src="lesson19.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_93" playOrder="93">
+        <navLabel>
+          <text>A well-functioning team has clear accountability for each position</text>
+        </navLabel>
+        <content src="lesson19.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_94" playOrder="94">
+        <navLabel>
+          <text>People who can fail in public have a lot of power</text>
+        </navLabel>
+        <content src="lesson19.xhtml#toc_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_95" playOrder="95">
+      <navLabel>
+        <text>20 : Take Accountability to Earn Equity</text>
+      </navLabel>
+      <content src="lesson20.xhtml"/>
+      <navPoint id="num_96" playOrder="96">
+        <navLabel>
+          <text>Accountability is how you’re going to get equity</text>
+        </navLabel>
+        <content src="lesson20.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_97" playOrder="97">
+        <navLabel>
+          <text>Taking accountability is like taking equity in all your work</text>
+        </navLabel>
+        <content src="lesson20.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_98" playOrder="98">
+        <navLabel>
+          <text>Accountability is reputational skin in the game</text>
+        </navLabel>
+        <content src="lesson20.xhtml#toc_3"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_99" playOrder="99">
+      <navLabel>
+        <text>21 : Labor and Capital Are Old Leverage</text>
+      </navLabel>
+      <content src="lesson21.xhtml"/>
+      <navPoint id="num_100" playOrder="100">
+        <navLabel>
+          <text>Our brains aren’t evolved to comprehend new forms of leverage</text>
+        </navLabel>
+        <content src="lesson21.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_101" playOrder="101">
+        <navLabel>
+          <text>Society overvalues labor leverage</text>
+        </navLabel>
+        <content src="lesson21.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_102" playOrder="102">
+        <navLabel>
+          <text>You want the minimum amount of labor that allows you to use the other forms of leverage</text>
+        </navLabel>
+        <content src="lesson21.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_103" playOrder="103">
+        <navLabel>
+          <text>Capital has been the dominant form of leverage in the last century</text>
+        </navLabel>
+        <content src="lesson21.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_104" playOrder="104">
+        <navLabel>
+          <text>You need specific knowledge and accountability to obtain capital</text>
+        </navLabel>
+        <content src="lesson21.xhtml#toc_5"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_105" playOrder="105">
+      <navLabel>
+        <text>22 : Product and Media Are New Leverage</text>
+      </navLabel>
+      <content src="lesson22.xhtml"/>
+      <navPoint id="num_106" playOrder="106">
+        <navLabel>
+          <text>Product and media are the new leverage</text>
+        </navLabel>
+        <content src="lesson22.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_107" playOrder="107">
+        <navLabel>
+          <text>Product leverage is where the new fortunes are made</text>
+        </navLabel>
+        <content src="lesson22.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_108" playOrder="108">
+        <navLabel>
+          <text>Combining all three forms of leverage is a magic combination</text>
+        </navLabel>
+        <content src="lesson22.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_109" playOrder="109">
+        <navLabel>
+          <text>Product and media leverage are permissionless</text>
+        </navLabel>
+        <content src="lesson22.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_110" playOrder="110">
+        <navLabel>
+          <text>The robot army is already here—code lets you tell them what to do</text>
+        </navLabel>
+        <content src="lesson22.xhtml#toc_5"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_111" playOrder="111">
+      <navLabel>
+        <text>23 : Product Leverage is Egalitarian</text>
+      </navLabel>
+      <content src="lesson23.xhtml"/>
+      <navPoint id="num_112" playOrder="112">
+        <navLabel>
+          <text>Product leverage is a positive-sum game</text>
+        </navLabel>
+        <content src="lesson23.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_113" playOrder="113">
+        <navLabel>
+          <text>Status goods are limited to a few people</text>
+        </navLabel>
+        <content src="lesson23.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_114" playOrder="114">
+        <navLabel>
+          <text>The best products tend to be targeted at the middle class</text>
+        </navLabel>
+        <content src="lesson23.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_115" playOrder="115">
+        <navLabel>
+          <text>Creating wealth with product leads to more ethical wealth</text>
+        </navLabel>
+        <content src="lesson23.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_116" playOrder="116">
+        <navLabel>
+          <text>You want to use the product that is used by the most people</text>
+        </navLabel>
+        <content src="lesson23.xhtml#toc_5"/>
+      </navPoint>
+      <navPoint id="num_117" playOrder="117">
+        <navLabel>
+          <text>Capital and labor are becoming permissionless</text>
+        </navLabel>
+        <content src="lesson23.xhtml#toc_6"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_118" playOrder="118">
+      <navLabel>
+        <text>24 : Pick a Business Model with Leverage</text>
+      </navLabel>
+      <content src="lesson24.xhtml"/>
+      <navPoint id="num_119" playOrder="119">
+        <navLabel>
+          <text>Scale economies: the more you produce, the cheaper it gets</text>
+        </navLabel>
+        <content src="lesson24.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_120" playOrder="120">
+        <navLabel>
+          <text>Zero marginal cost of reproduction: producing more is free</text>
+        </navLabel>
+        <content src="lesson24.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_121" playOrder="121">
+        <navLabel>
+          <text>Network effects: value grows as the square of the customers</text>
+        </navLabel>
+        <content src="lesson24.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_122" playOrder="122">
+        <navLabel>
+          <text>Network effect businesses are natural monopolies</text>
+        </navLabel>
+        <content src="lesson24.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_123" playOrder="123">
+        <navLabel>
+          <text>In a network effect, each new user adds value to the existing users</text>
+        </navLabel>
+        <content src="lesson24.xhtml#toc_5"/>
+      </navPoint>
+      <navPoint id="num_124" playOrder="124">
+        <navLabel>
+          <text>Zero marginal cost businesses can pivot into network effect businesses</text>
+        </navLabel>
+        <content src="lesson24.xhtml#toc_6"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_125" playOrder="125">
+      <navLabel>
+        <text>25 : Example: From Laborer to Entrepreneur</text>
+      </navLabel>
+      <content src="lesson25.xhtml"/>
+      <navPoint id="num_126" playOrder="126">
+        <navLabel>
+          <text>Laborers get paid hourly and have low accountability</text>
+        </navLabel>
+        <content src="lesson25.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_127" playOrder="127">
+        <navLabel>
+          <text>General contractors get equity, but they’re also taking risk</text>
+        </navLabel>
+        <content src="lesson25.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_128" playOrder="128">
+        <navLabel>
+          <text>Property developers pocket the profit by applying capital leverage</text>
+        </navLabel>
+        <content src="lesson25.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_129" playOrder="129">
+        <navLabel>
+          <text>Architects, large developers and REITs are even higher in the stack</text>
+        </navLabel>
+        <content src="lesson25.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_130" playOrder="130">
+        <navLabel>
+          <text>Real estate tech companies apply the maximum leverage</text>
+        </navLabel>
+        <content src="lesson25.xhtml#toc_5"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_131" playOrder="131">
+      <navLabel>
+        <text>26 : Judgment Is the Decisive Skill</text>
+      </navLabel>
+      <content src="lesson26.xhtml"/>
+      <navPoint id="num_132" playOrder="132">
+        <navLabel>
+          <text>In an age of infinite leverage, judgment becomes the most important skill</text>
+        </navLabel>
+        <content src="lesson26.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_133" playOrder="133">
+        <navLabel>
+          <text>Everything else you do is setting you up to apply judgment</text>
+        </navLabel>
+        <content src="lesson26.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_134" playOrder="134">
+        <navLabel>
+          <text>Judgment is knowing the long-term consequences of your actions</text>
+        </navLabel>
+        <content src="lesson26.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_135" playOrder="135">
+        <navLabel>
+          <text>Without experience, judgment is often less than useless</text>
+        </navLabel>
+        <content src="lesson26.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_136" playOrder="136">
+        <navLabel>
+          <text>The people with the best judgment are among the least emotional</text>
+        </navLabel>
+        <content src="lesson26.xhtml#toc_5"/>
+      </navPoint>
+      <navPoint id="num_137" playOrder="137">
+        <navLabel>
+          <text>Top investors often sound like philosophers</text>
+        </navLabel>
+        <content src="lesson26.xhtml#toc_6"/>
+      </navPoint>
+      <navPoint id="num_138" playOrder="138">
+        <navLabel>
+          <text>The more outraged someone is, the worse their judgment</text>
+        </navLabel>
+        <content src="lesson26.xhtml#toc_7"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_139" playOrder="139">
+      <navLabel>
+        <text>27 : Set an Aspirational Hourly Rate</text>
+      </navLabel>
+      <content src="lesson27.xhtml"/>
+      <navPoint id="num_140" playOrder="140">
+        <navLabel>
+          <text>Set and enforce an aspirational hourly rate</text>
+        </navLabel>
+        <content src="lesson27.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_141" playOrder="141">
+        <navLabel>
+          <text>You can’t penny pinch your way to wealth</text>
+        </navLabel>
+        <content src="lesson27.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_142" playOrder="142">
+        <navLabel>
+          <text>My aspirational rate was $5,000/hr</text>
+        </navLabel>
+        <content src="lesson27.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_143" playOrder="143">
+        <navLabel>
+          <text>If you can outsource something for less than your hourly rate, do it</text>
+        </navLabel>
+        <content src="lesson27.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_144" playOrder="144">
+        <navLabel>
+          <text>Your hourly rate should seem absurdly high</text>
+        </navLabel>
+        <content src="lesson27.xhtml#toc_5"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_145" playOrder="145">
+      <navLabel>
+        <text>28 : Work As Hard As You Can</text>
+      </navLabel>
+      <content src="lesson28.xhtml"/>
+      <navPoint id="num_146" playOrder="146">
+        <navLabel>
+          <text>Work as hard as you can</text>
+        </navLabel>
+        <content src="lesson28.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_147" playOrder="147">
+        <navLabel>
+          <text>What you work on and who you work with are more important</text>
+        </navLabel>
+        <content src="lesson28.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_148" playOrder="148">
+        <navLabel>
+          <text>No matter how high your bar is, raise it</text>
+        </navLabel>
+        <content src="lesson28.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_149" playOrder="149">
+        <navLabel>
+          <text>Nobody really works 80 hours a week</text>
+        </navLabel>
+        <content src="lesson28.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_150" playOrder="150">
+        <navLabel>
+          <text>Inspiration is perishable</text>
+        </navLabel>
+        <content src="lesson28.xhtml#toc_5"/>
+      </navPoint>
+      <navPoint id="num_151" playOrder="151">
+        <navLabel>
+          <text>Impatience with actions, patience with results</text>
+        </navLabel>
+        <content src="lesson28.xhtml#toc_6"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_152" playOrder="152">
+      <navLabel>
+        <text>29 : Be Too Busy to ‘Do Coffee’</text>
+      </navLabel>
+      <content src="lesson29.xhtml"/>
+      <navPoint id="num_153" playOrder="153">
+        <navLabel>
+          <text>Be too busy to ‘do coffee’ while keeping an uncluttered calendar</text>
+        </navLabel>
+        <content src="lesson29.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_154" playOrder="154">
+        <navLabel>
+          <text>Ruthlessly cut meetings</text>
+        </navLabel>
+        <content src="lesson29.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_155" playOrder="155">
+        <navLabel>
+          <text>People will meet with you when you have proof of work</text>
+        </navLabel>
+        <content src="lesson29.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_156" playOrder="156">
+        <navLabel>
+          <text>Free your time and mind</text>
+        </navLabel>
+        <content src="lesson29.xhtml#toc_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_157" playOrder="157">
+      <navLabel>
+        <text>30 : Keep Redefining What You Do</text>
+      </navLabel>
+      <content src="lesson30.xhtml"/>
+      <navPoint id="num_158" playOrder="158">
+        <navLabel>
+          <text>Keep redefining what you do until you’re the best at what you do</text>
+        </navLabel>
+        <content src="lesson30.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_159" playOrder="159">
+        <navLabel>
+          <text>Find founder-product-market fit</text>
+        </navLabel>
+        <content src="lesson30.xhtml#toc_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_160" playOrder="160">
+      <navLabel>
+        <text>31 : Escape Competition Through Authenticity</text>
+      </navLabel>
+      <content src="lesson31.xhtml"/>
+      <navPoint id="num_161" playOrder="161">
+        <navLabel>
+          <text>Competition will trap you in a lesser game</text>
+        </navLabel>
+        <content src="lesson31.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_162" playOrder="162">
+        <navLabel>
+          <text>No one can compete with you on being you</text>
+        </navLabel>
+        <content src="lesson31.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_163" playOrder="163">
+        <navLabel>
+          <text>In entrepreneurship, the masses are never right</text>
+        </navLabel>
+        <content src="lesson31.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_164" playOrder="164">
+        <navLabel>
+          <text>Combine your vocation and avocation</text>
+        </navLabel>
+        <content src="lesson31.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_165" playOrder="165">
+        <navLabel>
+          <text>Specialize in being you</text>
+        </navLabel>
+        <content src="lesson31.xhtml#toc_5"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_166" playOrder="166">
+      <navLabel>
+        <text>32 : Play Stupid Games, Win Stupid Prizes</text>
+      </navLabel>
+      <content src="lesson32.xhtml"/>
+      <navPoint id="num_167" playOrder="167">
+        <navLabel>
+          <text>Businesses that seem like they’re in direct competition really aren’t</text>
+        </navLabel>
+        <content src="lesson32.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_168" playOrder="168">
+        <navLabel>
+          <text>My first company got caught in the wrong game</text>
+        </navLabel>
+        <content src="lesson32.xhtml#toc_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_169" playOrder="169">
+      <navLabel>
+        <text>33 : Eventually You Will Get What You Deserve</text>
+      </navLabel>
+      <content src="lesson33.xhtml"/>
+      <navPoint id="num_170" playOrder="170">
+        <navLabel>
+          <text>On a long enough time scale, you will get paid</text>
+        </navLabel>
+        <content src="lesson33.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_171" playOrder="171">
+        <navLabel>
+          <text>What are you really good at, that the market values?</text>
+        </navLabel>
+        <content src="lesson33.xhtml#toc_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_172" playOrder="172">
+      <navLabel>
+        <text>34 : Reject Most Advice</text>
+      </navLabel>
+      <content src="lesson34.xhtml"/>
+      <navPoint id="num_173" playOrder="173">
+        <navLabel>
+          <text>The best founders listen to everyone but make up their own mind</text>
+        </navLabel>
+        <content src="lesson34.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_174" playOrder="174">
+        <navLabel>
+          <text>Advice offers anecdotes to recall later, when you get your own experience</text>
+        </navLabel>
+        <content src="lesson34.xhtml#toc_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_175" playOrder="175">
+      <navLabel>
+        <text>35 : A Calm Mind, a Fit Body, a House Full of Love</text>
+      </navLabel>
+      <content src="lesson35.xhtml"/>
+      <navPoint id="num_176" playOrder="176">
+        <navLabel>
+          <text>When you’re wealthy, you’ll realize it wasn’t what you were seeking</text>
+        </navLabel>
+        <content src="lesson35.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_177" playOrder="177">
+        <navLabel>
+          <text>A calm mind, a fit body and a house full of love must be earned</text>
+        </navLabel>
+        <content src="lesson35.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_178" playOrder="178">
+        <navLabel>
+          <text>Practical advice for a calmer internal state</text>
+        </navLabel>
+        <content src="lesson35.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_179" playOrder="179">
+        <navLabel>
+          <text>A lot of divorces happen over money, a lot of battles happen over internal anger</text>
+        </navLabel>
+        <content src="lesson35.xhtml#toc_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_180" playOrder="180">
+      <navLabel>
+        <text>36 : There Are No Get Rich Quick Schemes</text>
+      </navLabel>
+      <content src="lesson36.xhtml"/>
+      <navPoint id="num_181" playOrder="181">
+        <navLabel>
+          <text>There are no get rich quick schemes</text>
+        </navLabel>
+        <content src="lesson36.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_182" playOrder="182">
+        <navLabel>
+          <text>We don’t have ads because it would ruin our credibility</text>
+        </navLabel>
+        <content src="lesson36.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_183" playOrder="183">
+        <navLabel>
+          <text>Every founder has to lie to every employee</text>
+        </navLabel>
+        <content src="lesson36.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_184" playOrder="184">
+        <navLabel>
+          <text>Anyone giving advice on how to get rich should have made their money elsewhere</text>
+        </navLabel>
+        <content src="lesson36.xhtml#toc_4"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_185" playOrder="185">
+      <navLabel>
+        <text>37 : Productize Yourself</text>
+      </navLabel>
+      <content src="lesson37.xhtml"/>
+      <navPoint id="num_186" playOrder="186">
+        <navLabel>
+          <text>Figure out what you’re uniquely good at and apply as much leverage as possible</text>
+        </navLabel>
+        <content src="lesson37.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_187" playOrder="187">
+        <navLabel>
+          <text>Find hobbies that make you rich, fit and creative</text>
+        </navLabel>
+        <content src="lesson37.xhtml#toc_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_188" playOrder="188">
+      <navLabel>
+        <text>38 : Accountability Means Letting People Criticize You</text>
+      </navLabel>
+      <content src="lesson38.xhtml"/>
+      <navPoint id="num_189" playOrder="189">
+        <navLabel>
+          <text>Accountability means letting people criticize you</text>
+        </navLabel>
+        <content src="lesson38.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_190" playOrder="190">
+        <navLabel>
+          <text>The most interesting parts should be the ones you disagree with</text>
+        </navLabel>
+        <content src="lesson38.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_191" playOrder="191">
+        <navLabel>
+          <text>Get the free leverage that’s available in tech</text>
+        </navLabel>
+        <content src="lesson38.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_192" playOrder="192">
+        <navLabel>
+          <text>Don’t refuse to do things just because others can’t do them</text>
+        </navLabel>
+        <content src="lesson38.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_193" playOrder="193">
+        <navLabel>
+          <text>Realize your philanthropic vision by running a business</text>
+        </navLabel>
+        <content src="lesson38.xhtml#toc_5"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_194" playOrder="194">
+      <navLabel>
+        <text>39 : We Should Eventually Be Working for Ourselves</text>
+      </navLabel>
+      <content src="lesson39.xhtml"/>
+      <navPoint id="num_195" playOrder="195">
+        <navLabel>
+          <text>This advice is for anybody who wants to be entrepreneurial</text>
+        </navLabel>
+        <content src="lesson39.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_196" playOrder="196">
+        <navLabel>
+          <text>Midlife can be the most fruitful time to apply this advice</text>
+        </navLabel>
+        <content src="lesson39.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_197" playOrder="197">
+        <navLabel>
+          <text>Look up the value chain to find leverage</text>
+        </navLabel>
+        <content src="lesson39.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_198" playOrder="198">
+        <navLabel>
+          <text>You will do better in a small organization</text>
+        </navLabel>
+        <content src="lesson39.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_199" playOrder="199">
+        <navLabel>
+          <text>The goal is that we are all working for ourselves</text>
+        </navLabel>
+        <content src="lesson39.xhtml#toc_5"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_200" playOrder="200">
+      <navLabel>
+        <text>40 : Being Ethical Is Long-Term Greedy</text>
+      </navLabel>
+      <content src="lesson40.xhtml"/>
+      <navPoint id="num_201" playOrder="201">
+        <navLabel>
+          <text>Ethics isn’t something you study; it’s something you do</text>
+        </navLabel>
+        <content src="lesson40.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_202" playOrder="202">
+        <navLabel>
+          <text>Trust leads to compounding relationships</text>
+        </navLabel>
+        <content src="lesson40.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_203" playOrder="203">
+        <navLabel>
+          <text>Being ethical attracts other long-term players</text>
+        </navLabel>
+        <content src="lesson40.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_204" playOrder="204">
+        <navLabel>
+          <text>Being ethical is long-term greedy</text>
+        </navLabel>
+        <content src="lesson40.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_205" playOrder="205">
+        <navLabel>
+          <text>If you cut fair deals, you will get paid in the long run</text>
+        </navLabel>
+        <content src="lesson40.xhtml#toc_5"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_206" playOrder="206">
+      <navLabel>
+        <text>41 : Envy Can Be Useful, or It Can Eat You Alive</text>
+      </navLabel>
+      <content src="lesson41.xhtml"/>
+      <navPoint id="num_207" playOrder="207">
+        <navLabel>
+          <text>Suffering through the wrong thing can motivate you to find the right thing</text>
+        </navLabel>
+        <content src="lesson41.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_208" playOrder="208">
+        <navLabel>
+          <text>Being a lawyer was not what I was meant to do</text>
+        </navLabel>
+        <content src="lesson41.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_209" playOrder="209">
+        <navLabel>
+          <text>Envy can be useful or it can eat you alive</text>
+        </navLabel>
+        <content src="lesson41.xhtml#toc_3"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_210" playOrder="210">
+      <navLabel>
+        <text>42 : Principal-Agent Problem: Act Like an Owner</text>
+      </navLabel>
+      <content src="lesson42.xhtml"/>
+      <navPoint id="num_211" playOrder="211">
+        <navLabel>
+          <text>A principal is an owner; an agent is an employee</text>
+        </navLabel>
+        <content src="lesson42.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_212" playOrder="212">
+        <navLabel>
+          <text>A principal’s incentives are different than an agent’s incentives</text>
+        </navLabel>
+        <content src="lesson42.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_213" playOrder="213">
+        <navLabel>
+          <text>If you can work on incentives, don’t work on anything else</text>
+        </navLabel>
+        <content src="lesson42.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_214" playOrder="214">
+        <navLabel>
+          <text>When you do deals, it’s better to have the same incentives</text>
+        </navLabel>
+        <content src="lesson42.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_215" playOrder="215">
+        <navLabel>
+          <text>If you’re an employee, your most important job is to think like a principal</text>
+        </navLabel>
+        <content src="lesson42.xhtml#toc_5"/>
+      </navPoint>
+      <navPoint id="num_216" playOrder="216">
+        <navLabel>
+          <text>Deal with small firms to avoid the principal-agent problem</text>
+        </navLabel>
+        <content src="lesson42.xhtml#toc_6"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_217" playOrder="217">
+      <navLabel>
+        <text>43 : Kelly Criterion: Avoid Ruin</text>
+      </navLabel>
+      <content src="lesson43.xhtml"/>
+      <navPoint id="num_218" playOrder="218">
+        <navLabel>
+          <text>Don’t bet everything on one big gamble</text>
+        </navLabel>
+        <content src="lesson43.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_219" playOrder="219">
+        <navLabel>
+          <text>Ruining your reputation is the same as getting wiped to zero</text>
+        </navLabel>
+        <content src="lesson43.xhtml#toc_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_220" playOrder="220">
+      <navLabel>
+        <text>44 : Schelling Point: Cooperating Without Communicating</text>
+      </navLabel>
+      <content src="lesson44.xhtml"/>
+      <navPoint id="num_221" playOrder="221">
+        <navLabel>
+          <text>Use social norms to cooperate when you can’t communicate</text>
+        </navLabel>
+        <content src="lesson44.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_222" playOrder="222">
+        <navLabel>
+          <text>You can find Schelling points in business, art and politics</text>
+        </navLabel>
+        <content src="lesson44.xhtml#toc_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_223" playOrder="223">
+      <navLabel>
+        <text>45 : Turn Short-Term Games Into Long-Term Games</text>
+      </navLabel>
+      <content src="lesson45.xhtml"/>
+      <navPoint id="num_224" playOrder="224">
+        <navLabel>
+          <text>Pareto optimal solutions require a trade-off to improve any criterion</text>
+        </navLabel>
+        <content src="lesson45.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_225" playOrder="225">
+        <navLabel>
+          <text>Negotiations are won by whoever cares less</text>
+        </navLabel>
+        <content src="lesson45.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_226" playOrder="226">
+        <navLabel>
+          <text>Convert single-move games to multi-move games</text>
+        </navLabel>
+        <content src="lesson45.xhtml#toc_3"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_227" playOrder="227">
+      <navLabel>
+        <text>46 : Compounding Relationships Make Life Easier</text>
+      </navLabel>
+      <content src="lesson46.xhtml"/>
+      <navPoint id="num_228" playOrder="228">
+        <navLabel>
+          <text>Mutual trust makes it easy to do business</text>
+        </navLabel>
+        <content src="lesson46.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_229" playOrder="229">
+        <navLabel>
+          <text>It’s better to have a few compounding relationships than many shallow ones</text>
+        </navLabel>
+        <content src="lesson46.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_230" playOrder="230">
+        <navLabel>
+          <text>It takes just as much effort to create a small business as a large one</text>
+        </navLabel>
+        <content src="lesson46.xhtml#toc_3"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_231" playOrder="231">
+      <navLabel>
+        <text>47 : Price Discrimination: Charge Some People More</text>
+      </navLabel>
+      <content src="lesson47.xhtml"/>
+      <navPoint id="num_232" playOrder="232">
+        <navLabel>
+          <text>Price discrimination is a technique for charging certain people more</text>
+        </navLabel>
+        <content src="lesson47.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_233" playOrder="233">
+        <navLabel>
+          <text>Rich people and large enterprises are willing to pay more</text>
+        </navLabel>
+        <content src="lesson47.xhtml#toc_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_234" playOrder="234">
+      <navLabel>
+        <text>48 : Consumer Surplus: Getting More Than You Paid For</text>
+      </navLabel>
+      <content src="lesson48.xhtml"/>
+      <navPoint id="num_235" playOrder="235">
+        <navLabel>
+          <text>Consumer surplus is the extra value you get when you pay less than you were willing</text>
+        </navLabel>
+        <content src="lesson48.xhtml#toc_1"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_236" playOrder="236">
+      <navLabel>
+        <text>49 : Net Present Value: What Future Income Is Worth Today</text>
+      </navLabel>
+      <content src="lesson49.xhtml"/>
+      <navPoint id="num_237" playOrder="237">
+        <navLabel>
+          <text>Figure out what future income is worth today by applying a discount rate</text>
+        </navLabel>
+        <content src="lesson49.xhtml#toc_1"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_238" playOrder="238">
+      <navLabel>
+        <text>50 : Externalities: Calculating the Hidden Costs of Products</text>
+      </navLabel>
+      <content src="lesson50.xhtml"/>
+      <navPoint id="num_239" playOrder="239">
+        <navLabel>
+          <text>Pricing externalities properly is more effective than feel-good measures</text>
+        </navLabel>
+        <content src="lesson50.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_240" playOrder="240">
+        <navLabel>
+          <text>Properly pricing externalities can save resources in a tremendous way</text>
+        </navLabel>
+        <content src="lesson50.xhtml#toc_2"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_241" playOrder="241">
+      <navLabel>
+        <text>Bonus : Finding Time to Invest in Yourself</text>
+      </navLabel>
+      <content src="bonus.xhtml"/>
+      <navPoint id="num_242" playOrder="242">
+        <navLabel>
+          <text>You have to rent your time to get started</text>
+        </navLabel>
+        <content src="bonus.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_243" playOrder="243">
+        <navLabel>
+          <text>Find the part of the job with the steepest learning curve</text>
+        </navLabel>
+        <content src="bonus.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_244" playOrder="244">
+        <navLabel>
+          <text>Develop a founder mentality</text>
+        </navLabel>
+        <content src="bonus.xhtml#toc_3"/>
+      </navPoint>
+      <navPoint id="num_245" playOrder="245">
+        <navLabel>
+          <text>Accountability is something you can take on immediately</text>
+        </navLabel>
+        <content src="bonus.xhtml#toc_4"/>
+      </navPoint>
+      <navPoint id="num_246" playOrder="246">
+        <navLabel>
+          <text>Specific knowledge can be timely or timeless</text>
+        </navLabel>
+        <content src="bonus.xhtml#toc_5"/>
+      </navPoint>
+      <navPoint id="num_247" playOrder="247">
+        <navLabel>
+          <text>Technology is an intellectual frontier for gaining specific knowledge</text>
+        </navLabel>
+        <content src="bonus.xhtml#toc_6"/>
+      </navPoint>
+      <navPoint id="num_248" playOrder="248">
+        <navLabel>
+          <text>If you don’t have accountability, do something different</text>
+        </navLabel>
+        <content src="bonus.xhtml#toc_7"/>
+      </navPoint>
+      <navPoint id="num_249" playOrder="249">
+        <navLabel>
+          <text>You’ll develop thick-skin if you take on accountability</text>
+        </navLabel>
+        <content src="bonus.xhtml#toc_8"/>
+      </navPoint>
+      <navPoint id="num_250" playOrder="250">
+        <navLabel>
+          <text>Scale your specific knowledge with apprentices</text>
+        </navLabel>
+        <content src="bonus.xhtml#toc_9"/>
+      </navPoint>
+      <navPoint id="num_251" playOrder="251">
+        <navLabel>
+          <text>Specific knowledge comes on the job, not in a classroom</text>
+        </navLabel>
+        <content src="bonus.xhtml#toc_10"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

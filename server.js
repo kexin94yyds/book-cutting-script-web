@@ -143,6 +143,7 @@ app.post('/upload', upload.single('file'), async (req, res) => {
         res.json({ 
             success: true, 
             outputDir: finalOutputDir,
+            relativeUrl: path.relative(__dirname, finalOutputDir),
             chapters: chapters,
             message: '处理完成'
         });
